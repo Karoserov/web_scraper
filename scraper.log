@@ -498,3 +498,981 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2025-02-04 22:21:53.393 | SUCCESS  | __main__:scrape_prices:199 - Successfully scraped 139 products
 2025-02-04 22:21:53.394 | INFO     | __main__:generate_report:212 - Generating price report
 2025-02-04 22:21:59.914 | SUCCESS  | __main__:generate_report:233 - Price trend report generated successfully
+2025-02-05 16:31:47.898 | INFO     | __main__:scrape_prices:122 - Starting price scraping
+2025-02-05 16:31:58.142 | DEBUG    | __main__:get_page_content:38 - Accessing /
+2025-02-05 16:31:58.147 | ERROR    | __main__:get_page_content:86 - Error fetching page: Message: Malformed URL: URL constructor: / is not a valid URL.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidArgumentError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:384:5
+GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.sys.mjs:1054:11
+
+2025-02-05 16:31:58.234 | DEBUG    | __main__:get_page_content:88 - Page source sample:
+2025-02-05 16:31:58.240 | DEBUG    | __main__:get_page_content:89 - <html><head></head><body></body></html>
+2025-02-05 16:32:01.222 | ERROR    | __main__:scrape_prices:207 - Scraping failed: Message: Malformed URL: URL constructor: / is not a valid URL.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidArgumentError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:384:5
+GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.sys.mjs:1054:11
+
+2025-02-05 16:32:28.162 | INFO     | __main__:scrape_prices:122 - Starting price scraping
+2025-02-05 16:32:35.409 | DEBUG    | __main__:get_page_content:38 - Accessing tavex.bg/zlato
+2025-02-05 16:32:35.412 | ERROR    | __main__:get_page_content:86 - Error fetching page: Message: Malformed URL: URL constructor: tavex.bg/zlato is not a valid URL.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidArgumentError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:384:5
+GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.sys.mjs:1054:11
+
+2025-02-05 16:32:35.531 | DEBUG    | __main__:get_page_content:88 - Page source sample:
+2025-02-05 16:32:35.540 | DEBUG    | __main__:get_page_content:89 - <html><head></head><body></body></html>
+2025-02-05 16:32:39.163 | ERROR    | __main__:scrape_prices:207 - Scraping failed: Message: Malformed URL: URL constructor: tavex.bg/zlato is not a valid URL.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidArgumentError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:384:5
+GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.sys.mjs:1054:11
+
+2025-02-05 16:33:48.009 | INFO     | __main__:scrape_prices:122 - Starting price scraping
+2025-02-05 16:33:56.114 | DEBUG    | __main__:get_page_content:38 - Accessing https://tavex.bg/zlato
+2025-02-05 16:34:02.251 | DEBUG    | __main__:get_page_content:49 - No cookie consent button found or already accepted
+2025-02-05 16:34:02.261 | DEBUG    | __main__:get_page_content:64 - Found selector: ('class name', 'product')
+2025-02-05 16:34:07.389 | DEBUG    | __main__:scrape_prices:144 - Found 151 product items
+2025-02-05 16:34:07.393 | DEBUG    | __main__:scrape_prices:152 - Found 151 product items
+2025-02-05 16:34:07.404 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам абонаментно златно кюлче Tavex: 179.0 BGN
+2025-02-05 16:34:07.406 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 0,25 грама златно кюлче Tavex: 48.0 BGN
+2025-02-05 16:34:07.407 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Британия: 5519.0 BGN
+2025-02-05 16:34:07.409 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/10 унция златна монета Британия: 571.0 BGN
+2025-02-05 16:34:07.413 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Виенска Филхармония: 5519.0 BGN
+2025-02-05 16:34:07.418 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/10 унция златна монета Виенска Филхармония: 571.0 BGN
+2025-02-05 16:34:07.427 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Канадски кленов лист: 5519.0 BGN
+2025-02-05 16:34:07.428 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Австралийско кенгуру: 5519.0 BGN
+2025-02-05 16:34:07.438 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 100 грама златно кюлче Valcambi: 17378.0 BGN
+2025-02-05 16:34:07.449 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 100 грама златно кюлче Argor-Heraeus: 17378.0 BGN
+2025-02-05 16:34:07.449 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 0,25 г златно кюлче Tavex, подаръчен пакет: 48.0 BGN
+2025-02-05 16:34:07.454 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 50 x 1 грам комбинирано кюлче Valcambi Suisse CombiBar: 8837.0 BGN
+2025-02-05 16:34:07.455 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 50 грама златно кюлче Valcambi: 8837.0 BGN
+2025-02-05 16:34:07.463 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 50 грама златно кюлче Argor-Heraeus: 8837.0 BGN
+2025-02-05 16:34:07.467 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златно кюлче Valcambi: 5503.0 BGN
+2025-02-05 16:34:07.468 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златно кюлче PAMP Suisse: 5503.0 BGN
+2025-02-05 16:34:07.471 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златно кюлче Argor-Heraeus: 5503.0 BGN
+2025-02-05 16:34:07.473 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 грама златно кюлче Valcambi: 3583.0 BGN
+2025-02-05 16:34:07.477 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 грама златно кюлче PAMP Фортуна: 3583.0 BGN
+2025-02-05 16:34:07.478 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 грама златно кюлче Argor-Heraeus: 3583.0 BGN
+2025-02-05 16:34:07.480 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 грама златно кюлче Valcambi: 1792.0 BGN
+2025-02-05 16:34:07.482 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 грама златно кюлче PAMP Фортуна: 1792.0 BGN
+2025-02-05 16:34:07.491 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 грама златно кюлче Argor-Heraeus: 1792.0 BGN
+2025-02-05 16:34:07.494 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 5 грама златно кюлче Valcambi: 905.0 BGN
+2025-02-05 16:34:07.497 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 5 грама златно кюлче PAMP Фортуна: 905.0 BGN
+2025-02-05 16:34:07.499 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 5 грама златно кюлче PAMP лунар година на Змията 2025: 939.0 BGN
+2025-02-05 16:34:07.502 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 5 грама златно кюлче Argor-Heraeus: 905.0 BGN
+2025-02-05 16:34:07.503 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 2,5 грама златно кюлче Valcambi: 465.0 BGN
+2025-02-05 16:34:07.503 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 2,5 грама златно кюлче PAMP Фортуна: 465.0 BGN
+2025-02-05 16:34:07.506 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 2 грама златно кюлче Argor-Heraeus: 372.0 BGN
+2025-02-05 16:34:07.507 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам златно кюлче Valcambi: 182.0 BGN
+2025-02-05 16:34:07.509 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам златно кюлче PAMP Фортуна: 182.0 BGN
+2025-02-05 16:34:07.511 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам златно кюлче Argor-Heraeus: 182.0 BGN
+2025-02-05 16:34:07.512 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Американски орел: 5519.0 BGN
+2025-02-05 16:34:07.514 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 долара двоен орел лейди Либърти: 5182.0 BGN
+2025-02-05 16:34:07.515 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Американски бизон: 5600.0 BGN
+2025-02-05 16:34:07.516 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Кругерранд, Южна Африка: 5443.0 BGN
+2025-02-05 16:34:07.517 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Слон Южна Африка - Големите 5: 5519.0 BGN
+2025-02-05 16:34:07.518 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Заека 2023: 5573.0 BGN
+2025-02-05 16:34:07.519 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Австралийски лунар година на Дракона 2024: 5682.0 BGN
+2025-02-05 16:34:07.521 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/4 унция златна монета Австралийски лунар година на Дракона 2024: 1420.0 BGN
+2025-02-05 16:34:07.522 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/10 унция златна монета Австралийски лунар година на Дракона 2024: 568.0 BGN
+2025-02-05 16:34:07.524 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/20 унция златна монета Австралийски лунар година на Дракона 2024: 271.0 BGN
+2025-02-05 16:34:07.525 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Австралийски лунар година на Змията 2025: 5627.0 BGN
+2025-02-05 16:34:07.526 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/2 унция златна монета Австралийски лунар година на Змията 2025: 2760.0 BGN
+2025-02-05 16:34:07.528 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/4 унция златна монета Австралийски лунар година на Змията 2025: 1420.0 BGN
+2025-02-05 16:34:07.529 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/10 унция златна монета Австралийски лунар година на Змията 2025: 568.0 BGN
+2025-02-05 16:34:07.530 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/20 унция златна монета Австралийски лунар година на Змията 2025: 271.0 BGN
+2025-02-05 16:34:07.532 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам златно кюлче Argor-Heraeus лунар Змия 2025: 208.0 BGN
+2025-02-05 16:34:07.534 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 5 грама златно кюлче Argor-Heraeus лунар Змия 2025: 913.0 BGN
+2025-02-05 16:34:07.535 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Руска златна монета 5 рубли Николай II: 741.0 BGN
+2025-02-05 16:34:07.536 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 рубли Николай II Русия: 1482.0 BGN
+2025-02-05 16:34:07.537 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златна монета 20 франка Мариана: 1031.0 BGN
+2025-02-05 16:34:07.538 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 германски марки Вилхелм II: 1247.0 BGN
+2025-02-05 16:34:07.541 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 френски франка Наполеон III: 1031.0 BGN
+2025-02-05 16:34:07.543 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 френски франка златна монета Наполеон III с лавров венец: 1031.0 BGN
+2025-02-05 16:34:07.544 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 франка френски Наполеон III: 561.0 BGN
+2025-02-05 16:34:07.545 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 френски франка златна монета Наполеон III с лавров венец: 561.0 BGN
+2025-02-05 16:34:07.546 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златна монета 20 френски франка Серес: 1031.0 BGN
+2025-02-05 16:34:07.547 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 френски франка златна монета Гениус: 1031.0 BGN
+2025-02-05 16:34:07.548 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 белгийски франка златна монета Леополд II: 1033.0 BGN
+2025-02-05 16:34:07.549 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 франка златна монета Швейцария Вренели: 1031.0 BGN
+2025-02-05 16:34:07.551 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 лири Виктор Емануил II Италия: 1033.0 BGN
+2025-02-05 16:34:07.552 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 лири златна монета Умберто I, Италия: 1033.0 BGN
+2025-02-05 16:34:07.556 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 4 австрийски дуката златна монета Франц Йосиф: 2395.0 BGN
+2025-02-05 16:34:07.559 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 австрийски дукат златна монета Франц Йосиф: 616.0 BGN
+2025-02-05 16:34:07.560 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 8 форинта/20 франка Франц Йосиф Унгария: 1031.0 BGN
+2025-02-05 16:34:07.561 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златна монета 4 флорина/10 франка Франц Йосиф Австрия: 540.0 BGN
+2025-02-05 16:34:07.563 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 гулдена Вилхелмина Холандия: 1048.0 BGN
+2025-02-05 16:34:07.564 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златен Мемориален Суверен Чарлз III Великобритания 2022г.: 1299.0 BGN
+2025-02-05 16:34:07.565 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златен Суверен Чарлз III Великобритания: 1305.0 BGN
+2025-02-05 16:34:07.566 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златен суверен Елизабет II 1957-2021 Великобритания: 1274.0 BGN
+2025-02-05 16:34:07.568 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златен суверен Едуард VII Великобритания: 1274.0 BGN
+2025-02-05 16:34:07.569 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златен суверен Джордж V Великобритания: 1274.0 BGN
+2025-02-05 16:34:07.570 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златен суверен Виктория Великобритания: 1274.0 BGN
+2025-02-05 16:34:07.574 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Британски златен суверен Елизабет II, 2022г.: 1312.0 BGN
+2025-02-05 16:34:07.575 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 франка златна монета Тунис: 1026.0 BGN
+2025-02-05 16:34:07.576 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златна монета 100 турски куруша: 1128.0 BGN
+2025-02-05 16:34:07.578 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 50 песос Мексико: 6523.0 BGN
+2025-02-05 16:34:07.579 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златна монета 100 австрийски корони Франц Йосиф: 5224.0 BGN
+2025-02-05 16:34:07.580 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 30 грама златна монета Китайска панда 2025: 5323.0 BGN
+2025-02-05 16:34:07.581 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 15 грама златна монета Китайска панда 2025: 2661.0 BGN
+2025-02-05 16:34:07.582 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 8 грама златна монета Китайска панда 2025: 1419.0 BGN
+2025-02-05 16:34:07.583 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 3 грама златна монета Китайска панда 2025: 532.0 BGN
+2025-02-05 16:34:07.584 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам златна монета Китайска панда 2025: 177.0 BGN
+2025-02-05 16:34:07.585 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Тигъра 2022: 5573.0 BGN
+2025-02-05 16:34:07.586 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Вола 2021: 5573.0 BGN
+2025-02-05 16:34:07.587 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Австралийски лунар година на Мишката 2020: 5573.0 BGN
+2025-02-05 16:34:07.587 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета австралийски лунар година на Кучето 2018: 5573.0 BGN
+2025-02-05 16:34:07.588 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Петела 2017: 5573.0 BGN
+2025-02-05 16:34:07.590 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Маймуната 2016: 5573.0 BGN
+2025-02-05 16:34:07.590 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Змията 2013: 5573.0 BGN
+2025-02-05 16:34:07.591 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция австралиисйки лунар година на дракона 2012: 5573.0 BGN
+2025-02-05 16:34:07.592 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета австралийски лунар година на Заека 2011: 5573.0 BGN
+2025-02-05 16:34:07.593 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Вола 2009: 5573.0 BGN
+2025-02-05 16:34:07.595 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета австралийски лунар година на Мишката 2008: 5573.0 BGN
+2025-02-05 16:34:07.596 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Прасето 2007: 5573.0 BGN
+2025-02-05 16:34:07.597 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Петела 2005: 5573.0 BGN
+2025-02-05 16:34:07.598 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета австралийски лунар година на Маймуната 2004: 5573.0 BGN
+2025-02-05 16:34:07.599 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Козата 2003: 5573.0 BGN
+2025-02-05 16:34:07.600 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета австралийки Лунар 2000 година на дракона: 5573.0 BGN
+2025-02-05 16:34:07.601 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Тигъра 2010: 5573.0 BGN
+2025-02-05 16:34:07.602 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Кучето 2006: 5573.0 BGN
+2025-02-05 16:34:07.603 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Тигъра 1998: 5573.0 BGN
+2025-02-05 16:34:07.604 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Вола 1997: 5573.0 BGN
+2025-02-05 16:34:07.605 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Мишката 1996: 5573.0 BGN
+2025-02-05 16:34:07.606 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Коня 2014: 5573.0 BGN
+2025-02-05 16:34:07.607 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 5 грама златно кюлче Argor-Heraeus лунар Дракон 2024: 913.0 BGN
+2025-02-05 16:34:07.608 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам златно кюлче Argor-Heraeus лунар Дракон 2024: 208.0 BGN
+2025-02-05 16:34:07.608 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 30 грама златна монета Китайска панда 2024: 5323.0 BGN
+2025-02-05 16:34:07.610 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 15 грама златна монета Китайска панда 2024: 2661.0 BGN
+2025-02-05 16:34:07.611 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 8 грама златна монета Китайска панда 2024: 1419.0 BGN
+2025-02-05 16:34:07.613 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 3 грама златна монета Китайска панда 2024: 532.0 BGN
+2025-02-05 16:34:07.614 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам златна монета Китайска панда 2024: 177.0 BGN
+2025-02-05 16:34:07.616 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/2 унция златна монета Австралийски лунар година на Дракона 2024: 2705.0 BGN
+2025-02-05 16:34:07.616 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Пазителите на Тюдорите - Драконът на Тюдор 2024г.: 5546.0 BGN
+2025-02-05 16:34:07.617 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Пазителите на Тюдорите - Еднорогът на Сиймор 2024 г.: 5546.0 BGN
+2025-02-05 16:34:07.618 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Пазителите на Тюдорите - Бикът от Кларънс 2023 г.: 5546.0 BGN
+2025-02-05 16:34:07.619 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Британия - Елизабет II: 5519.0 BGN
+2025-02-05 16:34:07.621 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Пазителите на Тюдорите - Йейлът на Бофорт 2023 г.: 5546.0 BGN
+2025-02-05 16:34:07.622 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/2 унция златен австралийски лунар година на Заека 2023: 2705.0 BGN
+2025-02-05 16:34:07.625 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/4 унция златен австралийски лунар година на Заека 2023: 1420.0 BGN
+2025-02-05 16:34:07.626 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 5 грама златно кюлче PAMP лунар година на Дракона 2024: 939.0 BGN
+2025-02-05 16:34:07.627 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 5 грама златно кюлче PAMP лунар година на Заека 2023: 939.0 BGN
+2025-02-05 16:34:07.628 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/10 унция златен австралийски лунар година на Заека 2023: 568.0 BGN
+2025-02-05 16:34:07.629 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 15 грама златна монета Китайска панда 2023: 2610.0 BGN
+2025-02-05 16:34:07.630 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/20 унция златен австралийски лунар година на Заека 2023: 271.0 BGN
+2025-02-05 16:34:07.631 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 30 грама златна монета Китайска панда 2023: 5219.0 BGN
+2025-02-05 16:34:07.632 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 8 грама златна монета Китайска панда 2023: 1392.0 BGN
+2025-02-05 16:34:07.633 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 3 грама златна монета Китайска панда 2023: 521.0 BGN
+2025-02-05 16:34:07.634 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам златна монета Китайска панда 2023: 174.0 BGN
+2025-02-05 16:34:07.635 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 100 грама златно кюлче PAMP Фортуна: 17378.0 BGN
+2025-02-05 16:34:07.637 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 50 грама златно кюлче PAMP Фортуна: 8837.0 BGN
+2025-02-05 16:34:07.639 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златно кюлче PAMP Фортуна: 5503.0 BGN
+2025-02-05 16:34:07.640 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 крони Кристиян X Дания: 680.0 BGN
+2025-02-05 16:34:07.642 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 Гулдена Вилхелм III Холандия: 1048.0 BGN
+2025-02-05 16:34:07.643 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 30 грама златна монета Китайска панда 2022: 5219.0 BGN
+2025-02-05 16:34:07.646 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златна монета 10 франка Мариана: 561.0 BGN
+2025-02-05 16:34:07.647 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 килограм златно кюлче Valcambi: 169872.0 BGN
+2025-02-05 16:34:08.453 | SUCCESS  | __main__:save_to_excel:116 - Data saved to price_history_gold.xlsx
+2025-02-05 16:34:08.454 | SUCCESS  | __main__:scrape_prices:199 - Successfully scraped 139 products
+2025-02-05 16:34:08.454 | INFO     | __main__:generate_report:212 - Generating price report
+2025-02-05 16:34:16.510 | SUCCESS  | __main__:generate_report:233 - Price trend report generated successfully
+2025-02-05 16:40:47.162 | INFO     | __main__:scrape_prices:122 - Starting price scraping
+2025-02-05 16:40:54.470 | DEBUG    | __main__:get_page_content:38 - Accessing https://tavex.bg/zlato
+2025-02-05 16:41:00.499 | DEBUG    | __main__:get_page_content:49 - No cookie consent button found or already accepted
+2025-02-05 16:41:00.505 | DEBUG    | __main__:get_page_content:64 - Found selector: ('class name', 'product')
+2025-02-05 16:41:05.694 | DEBUG    | __main__:scrape_prices:145 - Found 151 product items
+2025-02-05 16:41:05.694 | DEBUG    | __main__:scrape_prices:153 - Found 151 product items
+2025-02-05 16:41:05.765 | WARNING  | __main__:scrape_prices:215 - No products were scraped
+2025-02-05 16:41:05.979 | DEBUG    | __main__:scrape_prices:216 - Page content: <html class="js csscalc no-touchevents" lang="bg">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <link href="https://static.hotjar.com" rel="dns-prefetch"/>
+  <link href="https://in.hotjar.com" rel="dns-prefetch"/>
+  <link href="https://www.google-analytics.com" rel="dns-prefetch"/>
+  <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
+  <link href="https://media....
+2025-02-05 16:42:54.384 | INFO     | __main__:scrape_prices:122 - Starting price scraping
+2025-02-05 16:43:02.213 | DEBUG    | __main__:get_page_content:38 - Accessing https://tavex.bg/zlato
+2025-02-05 16:43:08.915 | DEBUG    | __main__:get_page_content:49 - No cookie consent button found or already accepted
+2025-02-05 16:43:08.919 | DEBUG    | __main__:get_page_content:64 - Found selector: ('class name', 'product')
+2025-02-05 16:43:14.858 | DEBUG    | __main__:scrape_prices:145 - Found 151 product items
+2025-02-05 16:43:14.858 | DEBUG    | __main__:scrape_prices:153 - Found 151 product items
+2025-02-05 16:43:14.859 | DEBUG    | __main__:scrape_prices:169 - Could not find selling price for product with name: 0,25 грама златно кюлче Tavex
+2025-02-05 16:43:14.859 | DEBUG    | __main__:scrape_prices:169 - Could not find selling price for product with name: 1 грам абонаментно златно кюлче Tavex
+2025-02-05 16:43:14.860 | DEBUG    | __main__:scrape_prices:169 - Could not find selling price for product with name: 1 унция златна монета Австралийски лунар година на Змията 2025
+2025-02-05 16:43:14.860 | DEBUG    | __main__:scrape_prices:169 - Could not find selling price for product with name: 5 грама златно кюлче PAMP лунар година на Змията 2025
+2025-02-05 16:43:14.860 | DEBUG    | __main__:scrape_prices:169 - Could not find selling price for product with name: 5 грама златно кюлче Argor-Heraeus лунар Змия 2025
+2025-02-05 16:43:14.861 | DEBUG    | __main__:scrape_prices:169 - Could not find selling price for product with name: 1 грам златно кюлче Argor-Heraeus лунар Змия 2025
+2025-02-05 16:43:14.862 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 грам абонаментно златно кюлче Tavex
+2025-02-05 16:43:14.863 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 0,25 грама златно кюлче Tavex
+2025-02-05 16:43:14.863 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета Британия
+2025-02-05 16:43:14.865 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1/10 унция златна монета Британия
+2025-02-05 16:43:14.866 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета Виенска Филхармония
+2025-02-05 16:43:14.866 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1/10 унция златна монета Виенска Филхармония
+2025-02-05 16:43:14.867 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета Канадски кленов лист
+2025-02-05 16:43:14.868 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета Австралийско кенгуру
+2025-02-05 16:43:14.869 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 100 грама златно кюлче Valcambi
+2025-02-05 16:43:14.870 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 100 грама златно кюлче Argor-Heraeus
+2025-02-05 16:43:14.870 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 0,25 г златно кюлче Tavex, подаръчен пакет
+2025-02-05 16:43:14.871 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 50 x 1 грам комбинирано кюлче Valcambi Suisse CombiBar
+2025-02-05 16:43:14.872 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 50 грама златно кюлче Valcambi
+2025-02-05 16:43:14.873 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 50 грама златно кюлче Argor-Heraeus
+2025-02-05 16:43:14.874 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златно кюлче Valcambi
+2025-02-05 16:43:14.875 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златно кюлче PAMP Suisse
+2025-02-05 16:43:14.876 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златно кюлче Argor-Heraeus
+2025-02-05 16:43:14.877 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 20 грама златно кюлче Valcambi
+2025-02-05 16:43:14.878 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 20 грама златно кюлче PAMP Фортуна
+2025-02-05 16:43:14.879 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 20 грама златно кюлче Argor-Heraeus
+2025-02-05 16:43:14.880 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 10 грама златно кюлче Valcambi
+2025-02-05 16:43:14.881 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 10 грама златно кюлче PAMP Фортуна
+2025-02-05 16:43:14.882 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 10 грама златно кюлче Argor-Heraeus
+2025-02-05 16:43:14.883 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 5 грама златно кюлче Valcambi
+2025-02-05 16:43:14.884 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 5 грама златно кюлче PAMP Фортуна
+2025-02-05 16:43:14.886 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 5 грама златно кюлче PAMP лунар година на Змията 2025
+2025-02-05 16:43:14.887 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 5 грама златно кюлче Argor-Heraeus
+2025-02-05 16:43:14.888 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 2,5 грама златно кюлче Valcambi
+2025-02-05 16:43:14.889 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 2,5 грама златно кюлче PAMP Фортуна
+2025-02-05 16:43:14.890 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 2 грама златно кюлче Argor-Heraeus
+2025-02-05 16:43:14.891 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 грам златно кюлче Valcambi
+2025-02-05 16:43:14.893 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 грам златно кюлче PAMP Фортуна
+2025-02-05 16:43:14.894 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 грам златно кюлче Argor-Heraeus
+2025-02-05 16:43:14.896 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета Американски орел
+2025-02-05 16:43:14.897 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 20 долара двоен орел лейди Либърти
+2025-02-05 16:43:14.898 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета Американски бизон
+2025-02-05 16:43:14.899 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета Кругерранд, Южна Африка
+2025-02-05 16:43:14.900 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета Слон Южна Африка - Големите 5
+2025-02-05 16:43:14.900 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:43:14.901 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета Австралийски лунар година на Дракона 2024
+2025-02-05 16:43:14.902 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1/4 унция златна монета Австралийски лунар година на Дракона 2024
+2025-02-05 16:43:14.903 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1/10 унция златна монета Австралийски лунар година на Дракона 2024
+2025-02-05 16:43:14.903 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1/20 унция златна монета Австралийски лунар година на Дракона 2024
+2025-02-05 16:43:14.904 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета Австралийски лунар година на Змията 2025
+2025-02-05 16:43:14.907 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1/2 унция златна монета Австралийски лунар година на Змията 2025
+2025-02-05 16:43:14.908 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1/4 унция златна монета Австралийски лунар година на Змията 2025
+2025-02-05 16:43:14.909 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1/10 унция златна монета Австралийски лунар година на Змията 2025
+2025-02-05 16:43:14.910 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1/20 унция златна монета Австралийски лунар година на Змията 2025
+2025-02-05 16:43:14.912 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 грам златно кюлче Argor-Heraeus лунар Змия 2025
+2025-02-05 16:43:14.913 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 5 грама златно кюлче Argor-Heraeus лунар Змия 2025
+2025-02-05 16:43:14.914 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: Руска златна монета 5 рубли Николай II
+2025-02-05 16:43:14.916 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 10 рубли Николай II Русия
+2025-02-05 16:43:14.917 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: Златна монета 20 франка Мариана
+2025-02-05 16:43:14.918 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 20 германски марки Вилхелм II
+2025-02-05 16:43:14.919 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 20 френски франка Наполеон III
+2025-02-05 16:43:14.919 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 20 френски франка златна монета Наполеон III с лавров венец
+2025-02-05 16:43:14.920 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 10 франка френски Наполеон III
+2025-02-05 16:43:14.921 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 10 френски франка златна монета Наполеон III с лавров венец
+2025-02-05 16:43:14.922 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: Златна монета 20 френски франка Серес
+2025-02-05 16:43:14.924 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 20 френски франка златна монета Гениус
+2025-02-05 16:43:14.925 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 20 белгийски франка златна монета Леополд II
+2025-02-05 16:43:14.926 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 20 франка златна монета Швейцария Вренели
+2025-02-05 16:43:14.927 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 20 лири Виктор Емануил II Италия
+2025-02-05 16:43:14.928 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 20 лири златна монета Умберто I, Италия
+2025-02-05 16:43:14.930 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 4 австрийски дуката златна монета Франц Йосиф
+2025-02-05 16:43:14.931 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 австрийски дукат златна монета Франц Йосиф
+2025-02-05 16:43:14.932 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 8 форинта/20 франка Франц Йосиф Унгария
+2025-02-05 16:43:14.933 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: Златна монета 4 флорина/10 франка Франц Йосиф Австрия
+2025-02-05 16:43:14.934 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 10 гулдена Вилхелмина Холандия
+2025-02-05 16:43:14.936 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: Златен Мемориален Суверен Чарлз III Великобритания 2022г.
+2025-02-05 16:43:14.937 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: Златен Суверен Чарлз III Великобритания
+2025-02-05 16:43:14.939 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: Златен суверен Елизабет II 1957-2021 Великобритания
+2025-02-05 16:43:14.941 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: Златен суверен Едуард VII Великобритания
+2025-02-05 16:43:14.942 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: Златен суверен Джордж V Великобритания
+2025-02-05 16:43:14.944 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: Златен суверен Виктория Великобритания
+2025-02-05 16:43:14.946 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: Британски златен суверен Елизабет II, 2022г.
+2025-02-05 16:43:14.948 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 20 франка златна монета Тунис
+2025-02-05 16:43:14.949 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: Златна монета 100 турски куруша
+2025-02-05 16:43:14.950 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 50 песос Мексико
+2025-02-05 16:43:14.952 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: Златна монета 100 австрийски корони Франц Йосиф
+2025-02-05 16:43:14.953 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 30 грама златна монета Китайска панда 2025
+2025-02-05 16:43:14.955 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 15 грама златна монета Китайска панда 2025
+2025-02-05 16:43:14.957 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 8 грама златна монета Китайска панда 2025
+2025-02-05 16:43:14.958 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 3 грама златна монета Китайска панда 2025
+2025-02-05 16:43:14.961 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 грам златна монета Китайска панда 2025
+2025-02-05 16:43:14.962 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Тигъра 2022
+2025-02-05 16:43:14.963 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Вола 2021
+2025-02-05 16:43:14.964 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета Австралийски лунар година на Мишката 2020
+2025-02-05 16:43:14.966 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета австралийски лунар година на Кучето 2018
+2025-02-05 16:43:14.967 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Петела 2017
+2025-02-05 16:43:14.968 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Маймуната 2016
+2025-02-05 16:43:14.970 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Змията 2013
+2025-02-05 16:43:14.971 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция австралиисйки лунар година на дракона 2012
+2025-02-05 16:43:14.973 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета австралийски лунар година на Заека 2011
+2025-02-05 16:43:14.975 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Вола 2009
+2025-02-05 16:43:14.976 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета австралийски лунар година на Мишката 2008
+2025-02-05 16:43:14.977 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Прасето 2007
+2025-02-05 16:43:14.978 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Петела 2005
+2025-02-05 16:43:14.980 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета австралийски лунар година на Маймуната 2004
+2025-02-05 16:43:14.981 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Козата 2003
+2025-02-05 16:43:14.982 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета австралийки Лунар 2000 година на дракона
+2025-02-05 16:43:14.984 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Тигъра 2010
+2025-02-05 16:43:14.985 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Кучето 2006
+2025-02-05 16:43:14.986 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Тигъра 1998
+2025-02-05 16:43:14.988 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Вола 1997
+2025-02-05 16:43:14.992 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Мишката 1996
+2025-02-05 16:43:14.993 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Коня 2014
+2025-02-05 16:43:14.996 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 5 грама златно кюлче Argor-Heraeus лунар Дракон 2024
+2025-02-05 16:43:14.998 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 грам златно кюлче Argor-Heraeus лунар Дракон 2024
+2025-02-05 16:43:14.999 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 30 грама златна монета Китайска панда 2024
+2025-02-05 16:43:15.000 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 15 грама златна монета Китайска панда 2024
+2025-02-05 16:43:15.002 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 8 грама златна монета Китайска панда 2024
+2025-02-05 16:43:15.003 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 3 грама златна монета Китайска панда 2024
+2025-02-05 16:43:15.004 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 грам златна монета Китайска панда 2024
+2025-02-05 16:43:15.005 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1/2 унция златна монета Австралийски лунар година на Дракона 2024
+2025-02-05 16:43:15.007 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета Пазителите на Тюдорите - Драконът на Тюдор 2024г.
+2025-02-05 16:43:15.009 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета Пазителите на Тюдорите - Еднорогът на Сиймор 2024 г.
+2025-02-05 16:43:15.010 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета Пазителите на Тюдорите - Бикът от Кларънс 2023 г.
+2025-02-05 16:43:15.011 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета Британия - Елизабет II
+2025-02-05 16:43:15.013 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златна монета Пазителите на Тюдорите - Йейлът на Бофорт 2023 г.
+2025-02-05 16:43:15.014 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1/2 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:43:15.017 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1/4 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:43:15.018 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 5 грама златно кюлче PAMP лунар година на Дракона 2024
+2025-02-05 16:43:15.019 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 5 грама златно кюлче PAMP лунар година на Заека 2023
+2025-02-05 16:43:15.020 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1/10 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:43:15.022 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 15 грама златна монета Китайска панда 2023
+2025-02-05 16:43:15.023 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1/20 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:43:15.025 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 30 грама златна монета Китайска панда 2023
+2025-02-05 16:43:15.026 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 8 грама златна монета Китайска панда 2023
+2025-02-05 16:43:15.027 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 3 грама златна монета Китайска панда 2023
+2025-02-05 16:43:15.029 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 грам златна монета Китайска панда 2023
+2025-02-05 16:43:15.030 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 100 грама златно кюлче PAMP Фортуна
+2025-02-05 16:43:15.032 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 50 грама златно кюлче PAMP Фортуна
+2025-02-05 16:43:15.033 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 унция златно кюлче PAMP Фортуна
+2025-02-05 16:43:15.034 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 10 крони Кристиян X Дания
+2025-02-05 16:43:15.035 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 10 Гулдена Вилхелм III Холандия
+2025-02-05 16:43:15.036 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 30 грама златна монета Китайска панда 2022
+2025-02-05 16:43:15.037 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: Златна монета 10 франка Мариана
+2025-02-05 16:43:15.039 | DEBUG    | __main__:scrape_prices:179 - Could not find buying price for product with name: 1 килограм златно кюлче Valcambi
+2025-02-05 16:43:15.040 | DEBUG    | __main__:scrape_prices:169 - Could not find selling price for product with name: Златни кюлчета
+2025-02-05 16:43:15.041 | DEBUG    | __main__:scrape_prices:169 - Could not find selling price for product with name: Златни монети
+2025-02-05 16:43:15.042 | DEBUG    | __main__:scrape_prices:169 - Could not find selling price for product with name: Злато за подарък
+2025-02-05 16:43:15.043 | DEBUG    | __main__:scrape_prices:169 - Could not find selling price for product with name: Valcambi Suisse
+2025-02-05 16:43:15.044 | DEBUG    | __main__:scrape_prices:169 - Could not find selling price for product with name: Модерни инвестиционни монети
+2025-02-05 16:43:15.045 | DEBUG    | __main__:scrape_prices:169 - Could not find selling price for product with name: Исторически монети
+2025-02-05 16:43:15.045 | WARNING  | __main__:scrape_prices:225 - No products were scraped
+2025-02-05 16:43:15.320 | DEBUG    | __main__:scrape_prices:226 - Page content: <html class="js csscalc no-touchevents" lang="bg">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <link href="https://static.hotjar.com" rel="dns-prefetch"/>
+  <link href="https://in.hotjar.com" rel="dns-prefetch"/>
+  <link href="https://www.google-analytics.com" rel="dns-prefetch"/>
+  <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
+  <link href="https://media....
+2025-02-05 16:47:47.489 | INFO     | __main__:scrape_prices:161 - Starting price scraping
+2025-02-05 16:47:52.795 | DEBUG    | __main__:get_page_content:59 - Accessing https://tavex.bg/zlato
+2025-02-05 16:47:57.086 | DEBUG    | __main__:get_page_content:78 - No cookie consent button found or already accepted
+2025-02-05 16:47:57.100 | DEBUG    | __main__:get_page_content:93 - Found selector: ('class name', 'product')
+2025-02-05 16:48:09.058 | DEBUG    | __main__:scrape_prices:184 - Found 151 product items
+2025-02-05 16:48:09.058 | DEBUG    | __main__:scrape_prices:192 - Found 151 product items
+2025-02-05 16:48:09.059 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 0,25 грама златно кюлче Tavex
+2025-02-05 16:48:09.060 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 грам абонаментно златно кюлче Tavex
+2025-02-05 16:48:09.060 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златна монета Австралийски лунар година на Змията 2025
+2025-02-05 16:48:09.061 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 5 грама златно кюлче PAMP лунар година на Змията 2025
+2025-02-05 16:48:09.061 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 5 грама златно кюлче Argor-Heraeus лунар Змия 2025
+2025-02-05 16:48:09.062 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 грам златно кюлче Argor-Heraeus лунар Змия 2025
+2025-02-05 16:48:09.063 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам абонаментно златно кюлче Tavex: Selling: 197.0 BGN, Buying: 179.0 BGN
+2025-02-05 16:48:09.064 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 0,25 грама златно кюлче Tavex: Selling: 52.0 BGN, Buying: 48.0 BGN
+2025-02-05 16:48:09.065 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Британия: Selling: 5576.0 BGN, Buying: 5519.0 BGN
+2025-02-05 16:48:09.065 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/10 унция златна монета Британия: Selling: 615.0 BGN, Buying: 571.0 BGN
+2025-02-05 16:48:09.067 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Виенска Филхармония: Selling: 5603.0 BGN, Buying: 5519.0 BGN
+2025-02-05 16:48:09.069 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/10 унция златна монета Виенска Филхармония: Selling: 626.0 BGN, Buying: 571.0 BGN
+2025-02-05 16:48:09.070 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Канадски кленов лист: Selling: 5598.0 BGN, Buying: 5519.0 BGN
+2025-02-05 16:48:09.072 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Австралийско кенгуру: Selling: 5576.0 BGN, Buying: 5519.0 BGN
+2025-02-05 16:48:09.073 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 100 грама златно кюлче Valcambi: Selling: 17667.0 BGN, Buying: 17378.0 BGN
+2025-02-05 16:48:09.075 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 100 грама златно кюлче Argor-Heraeus: Selling: 17684.0 BGN, Buying: 17378.0 BGN
+2025-02-05 16:48:09.076 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 0,25 г златно кюлче Tavex, подаръчен пакет: Selling: 71.0 BGN, Buying: 48.0 BGN
+2025-02-05 16:48:09.077 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 50 x 1 грам комбинирано кюлче Valcambi Suisse CombiBar: Selling: 9155.0 BGN, Buying: 8837.0 BGN
+2025-02-05 16:48:09.078 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 50 грама златно кюлче Valcambi: Selling: 8920.0 BGN, Buying: 8837.0 BGN
+2025-02-05 16:48:09.079 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 50 грама златно кюлче Argor-Heraeus: Selling: 8929.0 BGN, Buying: 8837.0 BGN
+2025-02-05 16:48:09.080 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златно кюлче Valcambi: Selling: 5555.0 BGN, Buying: 5503.0 BGN
+2025-02-05 16:48:09.081 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златно кюлче PAMP Suisse: Selling: 5557.0 BGN, Buying: 5503.0 BGN
+2025-02-05 16:48:09.082 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златно кюлче Argor-Heraeus: Selling: 5560.0 BGN, Buying: 5503.0 BGN
+2025-02-05 16:48:09.085 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 грама златно кюлче Valcambi: Selling: 3634.0 BGN, Buying: 3583.0 BGN
+2025-02-05 16:48:09.086 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 20 грама златно кюлче PAMP Фортуна
+2025-02-05 16:48:09.088 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 грама златно кюлче Argor-Heraeus: Selling: 3641.0 BGN, Buying: 3583.0 BGN
+2025-02-05 16:48:09.090 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 грама златно кюлче Valcambi: Selling: 1852.0 BGN, Buying: 1792.0 BGN
+2025-02-05 16:48:09.092 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 грама златно кюлче PAMP Фортуна: Selling: 1869.0 BGN, Buying: 1792.0 BGN
+2025-02-05 16:48:09.093 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 грама златно кюлче Argor-Heraeus: Selling: 1854.0 BGN, Buying: 1792.0 BGN
+2025-02-05 16:48:09.094 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 5 грама златно кюлче Valcambi: Selling: 978.0 BGN, Buying: 905.0 BGN
+2025-02-05 16:48:09.095 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 5 грама златно кюлче PAMP Фортуна: Selling: 992.0 BGN, Buying: 905.0 BGN
+2025-02-05 16:48:09.096 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 5 грама златно кюлче PAMP лунар година на Змията 2025: Selling: 1028.0 BGN, Buying: 939.0 BGN
+2025-02-05 16:48:09.098 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 5 грама златно кюлче Argor-Heraeus: Selling: 979.0 BGN, Buying: 905.0 BGN
+2025-02-05 16:48:09.099 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 2,5 грама златно кюлче Valcambi: Selling: 520.0 BGN, Buying: 465.0 BGN
+2025-02-05 16:48:09.101 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 2,5 грама златно кюлче PAMP Фортуна: Selling: 524.0 BGN, Buying: 465.0 BGN
+2025-02-05 16:48:09.103 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 2 грама златно кюлче Argor-Heraeus: Selling: 416.0 BGN, Buying: 372.0 BGN
+2025-02-05 16:48:09.105 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам златно кюлче Valcambi: Selling: 219.0 BGN, Buying: 182.0 BGN
+2025-02-05 16:48:09.107 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам златно кюлче PAMP Фортуна: Selling: 221.0 BGN, Buying: 182.0 BGN
+2025-02-05 16:48:09.109 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам златно кюлче Argor-Heraeus: Selling: 217.0 BGN, Buying: 182.0 BGN
+2025-02-05 16:48:09.110 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Американски орел: Selling: 5743.0 BGN, Buying: 5519.0 BGN
+2025-02-05 16:48:09.111 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 долара двоен орел лейди Либърти: Selling: 6104.0 BGN, Buying: 5182.0 BGN
+2025-02-05 16:48:09.112 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Американски бизон: Selling: 5851.0 BGN, Buying: 5600.0 BGN
+2025-02-05 16:48:09.114 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Кругерранд, Южна Африка: Selling: 5555.0 BGN, Buying: 5443.0 BGN
+2025-02-05 16:48:09.115 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Слон Южна Африка - Големите 5: Selling: 5635.0 BGN, Buying: 5519.0 BGN
+2025-02-05 16:48:09.116 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Заека 2023: Selling: 6256.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.118 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Австралийски лунар година на Дракона 2024: Selling: 5964.0 BGN, Buying: 5682.0 BGN
+2025-02-05 16:48:09.119 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/4 унция златна монета Австралийски лунар година на Дракона 2024: Selling: 1618.0 BGN, Buying: 1420.0 BGN
+2025-02-05 16:48:09.120 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/10 унция златна монета Австралийски лунар година на Дракона 2024: Selling: 701.0 BGN, Buying: 568.0 BGN
+2025-02-05 16:48:09.122 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/20 унция златна монета Австралийски лунар година на Дракона 2024: Selling: 396.0 BGN, Buying: 271.0 BGN
+2025-02-05 16:48:09.123 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Австралийски лунар година на Змията 2025: Selling: 5743.0 BGN, Buying: 5627.0 BGN
+2025-02-05 16:48:09.124 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/2 унция златна монета Австралийски лунар година на Змията 2025: Selling: 3074.0 BGN, Buying: 2760.0 BGN
+2025-02-05 16:48:09.125 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/4 унция златна монета Австралийски лунар година на Змията 2025: Selling: 1591.0 BGN, Buying: 1420.0 BGN
+2025-02-05 16:48:09.126 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/10 унция златна монета Австралийски лунар година на Змията 2025: Selling: 691.0 BGN, Buying: 568.0 BGN
+2025-02-05 16:48:09.128 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/20 унция златна монета Австралийски лунар година на Змията 2025: Selling: 396.0 BGN, Buying: 271.0 BGN
+2025-02-05 16:48:09.129 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам златно кюлче Argor-Heraeus лунар Змия 2025: Selling: 264.0 BGN, Buying: 208.0 BGN
+2025-02-05 16:48:09.130 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 5 грама златно кюлче Argor-Heraeus лунар Змия 2025: Selling: 1015.0 BGN, Buying: 913.0 BGN
+2025-02-05 16:48:09.131 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Руска златна монета 5 рубли Николай II: Selling: 972.0 BGN, Buying: 741.0 BGN
+2025-02-05 16:48:09.132 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 рубли Николай II Русия: Selling: 2013.0 BGN, Buying: 1482.0 BGN
+2025-02-05 16:48:09.134 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златна монета 20 франка Мариана: Selling: 1060.0 BGN, Buying: 1031.0 BGN
+2025-02-05 16:48:09.135 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 германски марки Вилхелм II: Selling: 1305.0 BGN, Buying: 1247.0 BGN
+2025-02-05 16:48:09.136 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 френски франка Наполеон III: Selling: 1060.0 BGN, Buying: 1031.0 BGN
+2025-02-05 16:48:09.137 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 френски франка златна монета Наполеон III с лавров венец: Selling: 1060.0 BGN, Buying: 1031.0 BGN
+2025-02-05 16:48:09.138 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 франка френски Наполеон III: Selling: 642.0 BGN, Buying: 561.0 BGN
+2025-02-05 16:48:09.139 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 10 френски франка златна монета Наполеон III с лавров венец
+2025-02-05 16:48:09.141 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златна монета 20 френски франка Серес: Selling: 1060.0 BGN, Buying: 1031.0 BGN
+2025-02-05 16:48:09.142 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 френски франка златна монета Гениус: Selling: 1060.0 BGN, Buying: 1031.0 BGN
+2025-02-05 16:48:09.144 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 белгийски франка златна монета Леополд II: Selling: 1062.0 BGN, Buying: 1033.0 BGN
+2025-02-05 16:48:09.145 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 франка златна монета Швейцария Вренели: Selling: 1062.0 BGN, Buying: 1031.0 BGN
+2025-02-05 16:48:09.146 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 лири Виктор Емануил II Италия: Selling: 1077.0 BGN, Buying: 1033.0 BGN
+2025-02-05 16:48:09.147 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 лири златна монета Умберто I, Италия: Selling: 1062.0 BGN, Buying: 1033.0 BGN
+2025-02-05 16:48:09.149 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 4 австрийски дуката златна монета Франц Йосиф: Selling: 2590.0 BGN, Buying: 2395.0 BGN
+2025-02-05 16:48:09.150 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 австрийски дукат златна монета Франц Йосиф: Selling: 650.0 BGN, Buying: 616.0 BGN
+2025-02-05 16:48:09.152 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 8 форинта/20 франка Франц Йосиф Унгария: Selling: 1088.0 BGN, Buying: 1031.0 BGN
+2025-02-05 16:48:09.153 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златна монета 4 флорина/10 франка Франц Йосиф Австрия: Selling: 578.0 BGN, Buying: 540.0 BGN
+2025-02-05 16:48:09.154 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 гулдена Вилхелмина Холандия: Selling: 1139.0 BGN, Buying: 1048.0 BGN
+2025-02-05 16:48:09.156 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен Мемориален Суверен Чарлз III Великобритания 2022г.: Selling: 1358.0 BGN, Buying: 1299.0 BGN
+2025-02-05 16:48:09.157 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен Суверен Чарлз III Великобритания: Selling: 1364.0 BGN, Buying: 1305.0 BGN
+2025-02-05 16:48:09.159 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен суверен Елизабет II 1957-2021 Великобритания: Selling: 1323.0 BGN, Buying: 1274.0 BGN
+2025-02-05 16:48:09.160 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен суверен Едуард VII Великобритания: Selling: 1345.0 BGN, Buying: 1274.0 BGN
+2025-02-05 16:48:09.161 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен суверен Джордж V Великобритания: Selling: 1345.0 BGN, Buying: 1274.0 BGN
+2025-02-05 16:48:09.162 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен суверен Виктория Великобритания: Selling: 1358.0 BGN, Buying: 1274.0 BGN
+2025-02-05 16:48:09.162 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Британски златен суверен Елизабет II, 2022г.: Selling: 1422.0 BGN, Buying: 1312.0 BGN
+2025-02-05 16:48:09.163 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 франка златна монета Тунис: Selling: 1118.0 BGN, Buying: 1026.0 BGN
+2025-02-05 16:48:09.164 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златна монета 100 турски куруша: Selling: 1239.0 BGN, Buying: 1128.0 BGN
+2025-02-05 16:48:09.165 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 50 песос Мексико: Selling: 6924.0 BGN, Buying: 6523.0 BGN
+2025-02-05 16:48:09.166 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златна монета 100 австрийски корони Франц Йосиф: Selling: 5603.0 BGN, Buying: 5224.0 BGN
+2025-02-05 16:48:09.167 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 30 грама златна монета Китайска панда 2025: Selling: 5643.0 BGN, Buying: 5323.0 BGN
+2025-02-05 16:48:09.169 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 15 грама златна монета Китайска панда 2025: Selling: 2912.0 BGN, Buying: 2661.0 BGN
+2025-02-05 16:48:09.171 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 8 грама златна монета Китайска панда 2025: Selling: 1595.0 BGN, Buying: 1419.0 BGN
+2025-02-05 16:48:09.172 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 3 грама златна монета Китайска панда 2025: Selling: 676.0 BGN, Buying: 532.0 BGN
+2025-02-05 16:48:09.173 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам златна монета Китайска панда 2025: Selling: 269.0 BGN, Buying: 177.0 BGN
+2025-02-05 16:48:09.175 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Тигъра 2022: Selling: 8089.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.176 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Вола 2021: Selling: 6471.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.177 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Австралийски лунар година на Мишката 2020: Selling: 6363.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.178 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета австралийски лунар година на Кучето 2018: Selling: 6363.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.179 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Петела 2017: Selling: 6363.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.180 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Маймуната 2016: Selling: 6363.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.181 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Змията 2013: Selling: 6471.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.182 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция австралиисйки лунар година на дракона 2012: Selling: 6363.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.184 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета австралийски лунар година на Заека 2011: Selling: 6363.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.186 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Вола 2009: Selling: 6363.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.187 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета австралийски лунар година на Мишката 2008: Selling: 6363.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.189 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Прасето 2007: Selling: 6363.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.190 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Петела 2005: Selling: 6363.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.191 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета австралийски лунар година на Маймуната 2004: Selling: 6363.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.192 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Козата 2003: Selling: 6363.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.193 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета австралийки Лунар 2000 година на дракона: Selling: 7280.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.194 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златен австралийски лунар година на Тигъра 2010
+2025-02-05 16:48:09.195 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Кучето 2006: Selling: 6363.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.196 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Тигъра 1998: Selling: 6741.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.197 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Вола 1997: Selling: 6741.0 BGN, Buying: 5573.0 BGN
+2025-02-05 16:48:09.198 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златен австралийски лунар година на Мишката 1996
+2025-02-05 16:48:09.199 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златен австралийски лунар година на Коня 2014
+2025-02-05 16:48:09.200 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 5 грама златно кюлче Argor-Heraeus лунар Дракон 2024
+2025-02-05 16:48:09.201 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 грам златно кюлче Argor-Heraeus лунар Дракон 2024
+2025-02-05 16:48:09.203 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 30 грама златна монета Китайска панда 2024
+2025-02-05 16:48:09.204 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 15 грама златна монета Китайска панда 2024
+2025-02-05 16:48:09.205 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 8 грама златна монета Китайска панда 2024
+2025-02-05 16:48:09.206 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 3 грама златна монета Китайска панда 2024
+2025-02-05 16:48:09.207 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 грам златна монета Китайска панда 2024
+2025-02-05 16:48:09.208 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1/2 унция златна монета Австралийски лунар година на Дракона 2024
+2025-02-05 16:48:09.209 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златна монета Пазителите на Тюдорите - Драконът на Тюдор 2024г.
+2025-02-05 16:48:09.210 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златна монета Пазителите на Тюдорите - Еднорогът на Сиймор 2024 г.
+2025-02-05 16:48:09.211 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златна монета Пазителите на Тюдорите - Бикът от Кларънс 2023 г.
+2025-02-05 16:48:09.212 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златна монета Британия - Елизабет II
+2025-02-05 16:48:09.213 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златна монета Пазителите на Тюдорите - Йейлът на Бофорт 2023 г.
+2025-02-05 16:48:09.213 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1/2 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:48:09.214 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1/4 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:48:09.215 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 5 грама златно кюлче PAMP лунар година на Дракона 2024
+2025-02-05 16:48:09.216 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 5 грама златно кюлче PAMP лунар година на Заека 2023
+2025-02-05 16:48:09.217 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1/10 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:48:09.219 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 15 грама златна монета Китайска панда 2023
+2025-02-05 16:48:09.220 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1/20 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:48:09.221 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 30 грама златна монета Китайска панда 2023
+2025-02-05 16:48:09.223 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 8 грама златна монета Китайска панда 2023
+2025-02-05 16:48:09.224 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 3 грама златна монета Китайска панда 2023
+2025-02-05 16:48:09.225 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 грам златна монета Китайска панда 2023
+2025-02-05 16:48:09.226 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 100 грама златно кюлче PAMP Фортуна
+2025-02-05 16:48:09.226 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 50 грама златно кюлче PAMP Фортуна
+2025-02-05 16:48:09.227 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златно кюлче PAMP Фортуна
+2025-02-05 16:48:09.228 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 10 крони Кристиян X Дания
+2025-02-05 16:48:09.229 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 10 Гулдена Вилхелм III Холандия
+2025-02-05 16:48:09.230 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 30 грама златна монета Китайска панда 2022
+2025-02-05 16:48:09.231 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: Златна монета 10 франка Мариана
+2025-02-05 16:48:09.232 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 килограм златно кюлче Valcambi
+2025-02-05 16:48:09.232 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: Златни кюлчета
+2025-02-05 16:48:09.232 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: Златни монети
+2025-02-05 16:48:09.233 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: Злато за подарък
+2025-02-05 16:48:09.234 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: Valcambi Suisse
+2025-02-05 16:48:09.235 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: Модерни инвестиционни монети
+2025-02-05 16:48:09.236 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: Исторически монети
+2025-02-05 16:48:09.639 | SUCCESS  | __main__:save_to_excel:155 - Data saved to price_history_gold.xlsx
+2025-02-05 16:48:09.681 | SUCCESS  | __main__:scrape_prices:283 - Successfully scraped 102 products
+2025-02-05 16:48:09.681 | INFO     | __main__:generate_report:296 - Generating price report
+2025-02-05 16:48:23.944 | SUCCESS  | __main__:generate_report:321 - Price trend report generated successfully
+2025-02-05 16:54:15.154 | INFO     | __main__:scrape_prices:161 - Starting price scraping
+2025-02-05 16:54:22.843 | DEBUG    | __main__:get_page_content:59 - Accessing https://tavex.bg/zlato
+2025-02-05 16:54:28.580 | DEBUG    | __main__:get_page_content:78 - No cookie consent button found or already accepted
+2025-02-05 16:54:28.692 | DEBUG    | __main__:get_page_content:93 - Found selector: ('class name', 'product')
+2025-02-05 16:54:45.517 | DEBUG    | __main__:scrape_prices:184 - Found 151 product items
+2025-02-05 16:54:45.521 | DEBUG    | __main__:scrape_prices:192 - Found 151 product items
+2025-02-05 16:54:45.522 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 0,25 грама златно кюлче Tavex
+2025-02-05 16:54:45.523 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 грам абонаментно златно кюлче Tavex
+2025-02-05 16:54:45.524 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златна монета Австралийски лунар година на Змията 2025
+2025-02-05 16:54:45.524 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 5 грама златно кюлче PAMP лунар година на Змията 2025
+2025-02-05 16:54:45.525 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 5 грама златно кюлче Argor-Heraeus лунар Змия 2025
+2025-02-05 16:54:45.526 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 грам златно кюлче Argor-Heraeus лунар Змия 2025
+2025-02-05 16:54:45.527 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам абонаментно златно кюлче Tavex: Selling: 199.0 BGN, Buying: 179.0 BGN
+2025-02-05 16:54:45.529 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 0,25 грама златно кюлче Tavex: Selling: 52.0 BGN, Buying: 48.0 BGN
+2025-02-05 16:54:45.530 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Британия: Selling: 5587.0 BGN, Buying: 5532.0 BGN
+2025-02-05 16:54:45.532 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/10 унция златна монета Британия: Selling: 616.0 BGN, Buying: 572.0 BGN
+2025-02-05 16:54:45.534 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Виенска Филхармония: Selling: 5614.0 BGN, Buying: 5532.0 BGN
+2025-02-05 16:54:45.535 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/10 унция златна монета Виенска Филхармония: Selling: 627.0 BGN, Buying: 572.0 BGN
+2025-02-05 16:54:45.536 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Канадски кленов лист: Selling: 5609.0 BGN, Buying: 5532.0 BGN
+2025-02-05 16:54:45.538 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Австралийско кенгуру: Selling: 5587.0 BGN, Buying: 5532.0 BGN
+2025-02-05 16:54:45.539 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 100 грама златно кюлче Valcambi: Selling: 17702.0 BGN, Buying: 17420.0 BGN
+2025-02-05 16:54:45.541 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 100 грама златно кюлче Argor-Heraeus: Selling: 17720.0 BGN, Buying: 17420.0 BGN
+2025-02-05 16:54:45.542 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 0,25 г златно кюлче Tavex, подаръчен пакет: Selling: 71.0 BGN, Buying: 48.0 BGN
+2025-02-05 16:54:45.543 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 50 x 1 грам комбинирано кюлче Valcambi Suisse CombiBar: Selling: 9173.0 BGN, Buying: 8858.0 BGN
+2025-02-05 16:54:45.545 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 50 грама златно кюлче Valcambi: Selling: 8938.0 BGN, Buying: 8858.0 BGN
+2025-02-05 16:54:45.546 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 50 грама златно кюлче Argor-Heraeus: Selling: 8946.0 BGN, Buying: 8858.0 BGN
+2025-02-05 16:54:45.548 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златно кюлче Valcambi: Selling: 5566.0 BGN, Buying: 5516.0 BGN
+2025-02-05 16:54:45.550 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златно кюлче PAMP Suisse: Selling: 5568.0 BGN, Buying: 5516.0 BGN
+2025-02-05 16:54:45.552 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златно кюлче Argor-Heraeus: Selling: 5571.0 BGN, Buying: 5516.0 BGN
+2025-02-05 16:54:45.555 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 грама златно кюлче Valcambi: Selling: 3641.0 BGN, Buying: 3592.0 BGN
+2025-02-05 16:54:45.556 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 20 грама златно кюлче PAMP Фортуна
+2025-02-05 16:54:45.558 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 грама златно кюлче Argor-Heraeus: Selling: 3648.0 BGN, Buying: 3592.0 BGN
+2025-02-05 16:54:45.559 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 грама златно кюлче Valcambi: Selling: 1856.0 BGN, Buying: 1796.0 BGN
+2025-02-05 16:54:45.562 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 грама златно кюлче PAMP Фортуна: Selling: 1873.0 BGN, Buying: 1796.0 BGN
+2025-02-05 16:54:45.565 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 грама златно кюлче Argor-Heraeus: Selling: 1857.0 BGN, Buying: 1796.0 BGN
+2025-02-05 16:54:45.567 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 5 грама златно кюлче Valcambi: Selling: 980.0 BGN, Buying: 907.0 BGN
+2025-02-05 16:54:45.569 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 5 грама златно кюлче PAMP Фортуна: Selling: 994.0 BGN, Buying: 907.0 BGN
+2025-02-05 16:54:45.570 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 5 грама златно кюлче PAMP лунар година на Змията 2025: Selling: 1030.0 BGN, Buying: 941.0 BGN
+2025-02-05 16:54:45.572 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 5 грама златно кюлче Argor-Heraeus: Selling: 981.0 BGN, Buying: 907.0 BGN
+2025-02-05 16:54:45.574 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 2,5 грама златно кюлче Valcambi: Selling: 521.0 BGN, Buying: 466.0 BGN
+2025-02-05 16:54:45.579 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 2,5 грама златно кюлче PAMP Фортуна: Selling: 525.0 BGN, Buying: 466.0 BGN
+2025-02-05 16:54:45.581 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 2 грама златно кюлче Argor-Heraeus: Selling: 417.0 BGN, Buying: 373.0 BGN
+2025-02-05 16:54:45.586 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам златно кюлче Valcambi: Selling: 219.0 BGN, Buying: 183.0 BGN
+2025-02-05 16:54:45.587 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам златно кюлче PAMP Фортуна: Selling: 221.0 BGN, Buying: 183.0 BGN
+2025-02-05 16:54:45.589 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам златно кюлче Argor-Heraeus: Selling: 218.0 BGN, Buying: 183.0 BGN
+2025-02-05 16:54:45.591 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Американски орел: Selling: 5754.0 BGN, Buying: 5532.0 BGN
+2025-02-05 16:54:45.592 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 долара двоен орел лейди Либърти: Selling: 6116.0 BGN, Buying: 5195.0 BGN
+2025-02-05 16:54:45.602 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Американски бизон: Selling: 5863.0 BGN, Buying: 5613.0 BGN
+2025-02-05 16:54:45.603 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Кругерранд, Южна Африка: Selling: 5566.0 BGN, Buying: 5456.0 BGN
+2025-02-05 16:54:45.605 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Слон Южна Африка - Големите 5: Selling: 5646.0 BGN, Buying: 5532.0 BGN
+2025-02-05 16:54:45.606 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Заека 2023: Selling: 6268.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.607 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Австралийски лунар година на Дракона 2024: Selling: 5976.0 BGN, Buying: 5695.0 BGN
+2025-02-05 16:54:45.609 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/4 унция златна монета Австралийски лунар година на Дракона 2024: Selling: 1621.0 BGN, Buying: 1423.0 BGN
+2025-02-05 16:54:45.610 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/10 унция златна монета Австралийски лунар година на Дракона 2024: Selling: 703.0 BGN, Buying: 570.0 BGN
+2025-02-05 16:54:45.611 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/20 унция златна монета Австралийски лунар година на Дракона 2024: Selling: 397.0 BGN, Buying: 271.0 BGN
+2025-02-05 16:54:45.612 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Австралийски лунар година на Змията 2025: Selling: 5754.0 BGN, Buying: 5640.0 BGN
+2025-02-05 16:54:45.613 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/2 унция златна монета Австралийски лунар година на Змията 2025: Selling: 3080.0 BGN, Buying: 2766.0 BGN
+2025-02-05 16:54:45.615 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/4 унция златна монета Австралийски лунар година на Змията 2025: Selling: 1594.0 BGN, Buying: 1423.0 BGN
+2025-02-05 16:54:45.616 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/10 унция златна монета Австралийски лунар година на Змията 2025: Selling: 692.0 BGN, Buying: 570.0 BGN
+2025-02-05 16:54:45.616 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/20 унция златна монета Австралийски лунар година на Змията 2025: Selling: 397.0 BGN, Buying: 271.0 BGN
+2025-02-05 16:54:45.617 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам златно кюлче Argor-Heraeus лунар Змия 2025: Selling: 264.0 BGN, Buying: 209.0 BGN
+2025-02-05 16:54:45.618 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 5 грама златно кюлче Argor-Heraeus лунар Змия 2025: Selling: 1017.0 BGN, Buying: 916.0 BGN
+2025-02-05 16:54:45.619 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Руска златна монета 5 рубли Николай II: Selling: 974.0 BGN, Buying: 742.0 BGN
+2025-02-05 16:54:45.622 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 рубли Николай II Русия: Selling: 2017.0 BGN, Buying: 1485.0 BGN
+2025-02-05 16:54:45.624 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златна монета 20 франка Мариана: Selling: 1063.0 BGN, Buying: 1033.0 BGN
+2025-02-05 16:54:45.627 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 германски марки Вилхелм II: Selling: 1307.0 BGN, Buying: 1250.0 BGN
+2025-02-05 16:54:45.628 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 френски франка Наполеон III: Selling: 1063.0 BGN, Buying: 1033.0 BGN
+2025-02-05 16:54:45.629 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 френски франка златна монета Наполеон III с лавров венец: Selling: 1063.0 BGN, Buying: 1033.0 BGN
+2025-02-05 16:54:45.630 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 франка френски Наполеон III: Selling: 643.0 BGN, Buying: 562.0 BGN
+2025-02-05 16:54:45.630 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 10 френски франка златна монета Наполеон III с лавров венец
+2025-02-05 16:54:45.631 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златна монета 20 френски франка Серес: Selling: 1063.0 BGN, Buying: 1033.0 BGN
+2025-02-05 16:54:45.632 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 френски франка златна монета Гениус: Selling: 1063.0 BGN, Buying: 1033.0 BGN
+2025-02-05 16:54:45.633 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 белгийски франка златна монета Леополд II: Selling: 1065.0 BGN, Buying: 1035.0 BGN
+2025-02-05 16:54:45.634 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 франка златна монета Швейцария Вренели: Selling: 1065.0 BGN, Buying: 1033.0 BGN
+2025-02-05 16:54:45.636 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 лири Виктор Емануил II Италия: Selling: 1080.0 BGN, Buying: 1035.0 BGN
+2025-02-05 16:54:45.637 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 лири златна монета Умберто I, Италия: Selling: 1065.0 BGN, Buying: 1035.0 BGN
+2025-02-05 16:54:45.638 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 4 австрийски дуката златна монета Франц Йосиф: Selling: 2595.0 BGN, Buying: 2402.0 BGN
+2025-02-05 16:54:45.639 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 австрийски дукат златна монета Франц Йосиф: Selling: 652.0 BGN, Buying: 618.0 BGN
+2025-02-05 16:54:45.640 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 8 форинта/20 франка Франц Йосиф Унгария: Selling: 1090.0 BGN, Buying: 1033.0 BGN
+2025-02-05 16:54:45.641 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златна монета 4 флорина/10 франка Франц Йосиф Австрия: Selling: 579.0 BGN, Buying: 542.0 BGN
+2025-02-05 16:54:45.643 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 гулдена Вилхелмина Холандия: Selling: 1142.0 BGN, Buying: 1051.0 BGN
+2025-02-05 16:54:45.645 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен Мемориален Суверен Чарлз III Великобритания 2022г.: Selling: 1361.0 BGN, Buying: 1302.0 BGN
+2025-02-05 16:54:45.646 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен Суверен Чарлз III Великобритания: Selling: 1367.0 BGN, Buying: 1308.0 BGN
+2025-02-05 16:54:45.648 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен суверен Елизабет II 1957-2021 Великобритания: Selling: 1325.0 BGN, Buying: 1277.0 BGN
+2025-02-05 16:54:45.649 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен суверен Едуард VII Великобритания: Selling: 1348.0 BGN, Buying: 1277.0 BGN
+2025-02-05 16:54:45.651 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен суверен Джордж V Великобритания: Selling: 1348.0 BGN, Buying: 1277.0 BGN
+2025-02-05 16:54:45.654 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен суверен Виктория Великобритания: Selling: 1361.0 BGN, Buying: 1277.0 BGN
+2025-02-05 16:54:45.655 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Британски златен суверен Елизабет II, 2022г.: Selling: 1425.0 BGN, Buying: 1316.0 BGN
+2025-02-05 16:54:45.657 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 франка златна монета Тунис: Selling: 1120.0 BGN, Buying: 1028.0 BGN
+2025-02-05 16:54:45.658 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златна монета 100 турски куруша: Selling: 1241.0 BGN, Buying: 1130.0 BGN
+2025-02-05 16:54:45.660 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 50 песос Мексико: Selling: 6938.0 BGN, Buying: 6539.0 BGN
+2025-02-05 16:54:45.661 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златна монета 100 австрийски корони Франц Йосиф: Selling: 5614.0 BGN, Buying: 5237.0 BGN
+2025-02-05 16:54:45.663 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 30 грама златна монета Китайска панда 2025: Selling: 5655.0 BGN, Buying: 5335.0 BGN
+2025-02-05 16:54:45.664 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 15 грама златна монета Китайска панда 2025: Selling: 2918.0 BGN, Buying: 2668.0 BGN
+2025-02-05 16:54:45.666 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 8 грама златна монета Китайска панда 2025: Selling: 1598.0 BGN, Buying: 1423.0 BGN
+2025-02-05 16:54:45.667 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 3 грама златна монета Китайска панда 2025: Selling: 678.0 BGN, Buying: 533.0 BGN
+2025-02-05 16:54:45.668 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам златна монета Китайска панда 2025: Selling: 270.0 BGN, Buying: 178.0 BGN
+2025-02-05 16:54:45.670 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Тигъра 2022: Selling: 8105.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.671 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Вола 2021: Selling: 6484.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.672 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Австралийски лунар година на Мишката 2020: Selling: 6376.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.674 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета австралийски лунар година на Кучето 2018: Selling: 6376.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.675 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Петела 2017: Selling: 6376.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.677 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Маймуната 2016: Selling: 6376.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.679 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Змията 2013: Selling: 6484.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.680 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция австралиисйки лунар година на дракона 2012: Selling: 6376.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.683 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета австралийски лунар година на Заека 2011: Selling: 6376.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.685 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Вола 2009: Selling: 6376.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.686 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета австралийски лунар година на Мишката 2008: Selling: 6376.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.688 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Прасето 2007: Selling: 6376.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.690 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Петела 2005: Selling: 6376.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.692 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета австралийски лунар година на Маймуната 2004: Selling: 6376.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.693 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Козата 2003: Selling: 6376.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.695 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета австралийки Лунар 2000 година на дракона: Selling: 7294.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.698 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златен австралийски лунар година на Тигъра 2010
+2025-02-05 16:54:45.700 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Кучето 2006: Selling: 6376.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.701 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Тигъра 1998: Selling: 6754.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.703 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Вола 1997: Selling: 6754.0 BGN, Buying: 5586.0 BGN
+2025-02-05 16:54:45.705 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златен австралийски лунар година на Мишката 1996
+2025-02-05 16:54:45.707 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златен австралийски лунар година на Коня 2014
+2025-02-05 16:54:45.708 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 5 грама златно кюлче Argor-Heraeus лунар Дракон 2024
+2025-02-05 16:54:45.710 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 грам златно кюлче Argor-Heraeus лунар Дракон 2024
+2025-02-05 16:54:45.712 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 30 грама златна монета Китайска панда 2024
+2025-02-05 16:54:45.714 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 15 грама златна монета Китайска панда 2024
+2025-02-05 16:54:45.716 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 8 грама златна монета Китайска панда 2024
+2025-02-05 16:54:45.718 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 3 грама златна монета Китайска панда 2024
+2025-02-05 16:54:45.720 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 грам златна монета Китайска панда 2024
+2025-02-05 16:54:45.722 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1/2 унция златна монета Австралийски лунар година на Дракона 2024
+2025-02-05 16:54:45.724 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златна монета Пазителите на Тюдорите - Драконът на Тюдор 2024г.
+2025-02-05 16:54:45.725 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златна монета Пазителите на Тюдорите - Еднорогът на Сиймор 2024 г.
+2025-02-05 16:54:45.733 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златна монета Пазителите на Тюдорите - Бикът от Кларънс 2023 г.
+2025-02-05 16:54:45.737 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златна монета Британия - Елизабет II
+2025-02-05 16:54:45.738 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златна монета Пазителите на Тюдорите - Йейлът на Бофорт 2023 г.
+2025-02-05 16:54:45.740 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1/2 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:54:45.741 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1/4 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:54:45.744 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 5 грама златно кюлче PAMP лунар година на Дракона 2024
+2025-02-05 16:54:45.747 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 5 грама златно кюлче PAMP лунар година на Заека 2023
+2025-02-05 16:54:45.748 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1/10 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:54:45.750 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 15 грама златна монета Китайска панда 2023
+2025-02-05 16:54:45.751 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1/20 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:54:45.753 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 30 грама златна монета Китайска панда 2023
+2025-02-05 16:54:45.754 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 8 грама златна монета Китайска панда 2023
+2025-02-05 16:54:45.756 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 3 грама златна монета Китайска панда 2023
+2025-02-05 16:54:45.757 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 грам златна монета Китайска панда 2023
+2025-02-05 16:54:45.759 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 100 грама златно кюлче PAMP Фортуна
+2025-02-05 16:54:45.760 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 50 грама златно кюлче PAMP Фортуна
+2025-02-05 16:54:45.761 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 унция златно кюлче PAMP Фортуна
+2025-02-05 16:54:45.763 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 10 крони Кристиян X Дания
+2025-02-05 16:54:45.764 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 10 Гулдена Вилхелм III Холандия
+2025-02-05 16:54:45.766 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 30 грама златна монета Китайска панда 2022
+2025-02-05 16:54:45.767 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: Златна монета 10 франка Мариана
+2025-02-05 16:54:45.769 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: 1 килограм златно кюлче Valcambi
+2025-02-05 16:54:45.769 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: Златни кюлчета
+2025-02-05 16:54:45.770 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: Златни монети
+2025-02-05 16:54:45.771 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: Злато за подарък
+2025-02-05 16:54:45.771 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: Valcambi Suisse
+2025-02-05 16:54:45.772 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: Модерни инвестиционни монети
+2025-02-05 16:54:45.773 | DEBUG    | __main__:scrape_prices:208 - Could not find selling price for product with name: Исторически монети
+2025-02-05 16:54:46.931 | SUCCESS  | __main__:save_to_excel:155 - Data saved to price_history_gold.xlsx
+2025-02-05 16:54:46.932 | SUCCESS  | __main__:scrape_prices:283 - Successfully scraped 102 products
+2025-02-05 16:54:46.934 | INFO     | __main__:generate_report:296 - Generating price report
+2025-02-05 16:55:02.045 | SUCCESS  | __main__:generate_report:321 - Price trend report generated successfully
+2025-02-05 16:59:00.332 | INFO     | __main__:scrape_prices:161 - Starting price scraping
+2025-02-05 16:59:05.108 | DEBUG    | __main__:get_page_content:59 - Accessing https://tavex.bg/zlato
+2025-02-05 16:59:12.333 | DEBUG    | __main__:get_page_content:78 - No cookie consent button found or already accepted
+2025-02-05 16:59:12.365 | DEBUG    | __main__:get_page_content:93 - Found selector: ('class name', 'product')
+2025-02-05 16:59:23.491 | DEBUG    | __main__:scrape_prices:184 - Found 151 product items
+2025-02-05 16:59:23.491 | DEBUG    | __main__:scrape_prices:192 - Found 151 product items
+2025-02-05 16:59:23.492 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 0,25 грама златно кюлче Tavex
+2025-02-05 16:59:23.492 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 грам абонаментно златно кюлче Tavex
+2025-02-05 16:59:23.493 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция златна монета Австралийски лунар година на Змията 2025
+2025-02-05 16:59:23.493 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 5 грама златно кюлче PAMP лунар година на Змията 2025
+2025-02-05 16:59:23.494 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 5 грама златно кюлче Argor-Heraeus лунар Змия 2025
+2025-02-05 16:59:23.494 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 грам златно кюлче Argor-Heraeus лунар Змия 2025
+2025-02-05 16:59:23.495 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам абонаментно златно кюлче Tavex: Selling: 179.0 BGN, Buying: 199.0 BGN
+2025-02-05 16:59:23.496 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 0,25 грама златно кюлче Tavex: Selling: 48.0 BGN, Buying: 52.0 BGN
+2025-02-05 16:59:23.496 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Британия: Selling: 5532.0 BGN, Buying: 5587.0 BGN
+2025-02-05 16:59:23.497 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/10 унция златна монета Британия: Selling: 572.0 BGN, Buying: 616.0 BGN
+2025-02-05 16:59:23.498 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Виенска Филхармония: Selling: 5532.0 BGN, Buying: 5614.0 BGN
+2025-02-05 16:59:23.499 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/10 унция златна монета Виенска Филхармония: Selling: 572.0 BGN, Buying: 627.0 BGN
+2025-02-05 16:59:23.500 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Канадски кленов лист: Selling: 5532.0 BGN, Buying: 5609.0 BGN
+2025-02-05 16:59:23.500 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Австралийско кенгуру: Selling: 5532.0 BGN, Buying: 5587.0 BGN
+2025-02-05 16:59:23.501 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 100 грама златно кюлче Valcambi: Selling: 17420.0 BGN, Buying: 17702.0 BGN
+2025-02-05 16:59:23.502 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 100 грама златно кюлче Argor-Heraeus: Selling: 17420.0 BGN, Buying: 17720.0 BGN
+2025-02-05 16:59:23.502 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 0,25 г златно кюлче Tavex, подаръчен пакет: Selling: 48.0 BGN, Buying: 71.0 BGN
+2025-02-05 16:59:23.503 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 50 x 1 грам комбинирано кюлче Valcambi Suisse CombiBar: Selling: 8858.0 BGN, Buying: 9173.0 BGN
+2025-02-05 16:59:23.504 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 50 грама златно кюлче Valcambi: Selling: 8858.0 BGN, Buying: 8938.0 BGN
+2025-02-05 16:59:23.505 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 50 грама златно кюлче Argor-Heraeus: Selling: 8858.0 BGN, Buying: 8946.0 BGN
+2025-02-05 16:59:23.506 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златно кюлче Valcambi: Selling: 5516.0 BGN, Buying: 5566.0 BGN
+2025-02-05 16:59:23.507 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златно кюлче PAMP Suisse: Selling: 5516.0 BGN, Buying: 5568.0 BGN
+2025-02-05 16:59:23.508 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златно кюлче Argor-Heraeus: Selling: 5516.0 BGN, Buying: 5571.0 BGN
+2025-02-05 16:59:23.509 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 грама златно кюлче Valcambi: Selling: 3592.0 BGN, Buying: 3641.0 BGN
+2025-02-05 16:59:23.510 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 20 грама златно кюлче PAMP Фортуна
+2025-02-05 16:59:23.511 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 грама златно кюлче Argor-Heraeus: Selling: 3592.0 BGN, Buying: 3648.0 BGN
+2025-02-05 16:59:23.513 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 грама златно кюлче Valcambi: Selling: 1796.0 BGN, Buying: 1856.0 BGN
+2025-02-05 16:59:23.513 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 грама златно кюлче PAMP Фортуна: Selling: 1796.0 BGN, Buying: 1873.0 BGN
+2025-02-05 16:59:23.515 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 грама златно кюлче Argor-Heraeus: Selling: 1796.0 BGN, Buying: 1857.0 BGN
+2025-02-05 16:59:23.516 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 5 грама златно кюлче Valcambi: Selling: 907.0 BGN, Buying: 980.0 BGN
+2025-02-05 16:59:23.517 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 5 грама златно кюлче PAMP Фортуна: Selling: 907.0 BGN, Buying: 994.0 BGN
+2025-02-05 16:59:23.518 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 5 грама златно кюлче PAMP лунар година на Змията 2025: Selling: 941.0 BGN, Buying: 1030.0 BGN
+2025-02-05 16:59:23.519 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 5 грама златно кюлче Argor-Heraeus: Selling: 907.0 BGN, Buying: 981.0 BGN
+2025-02-05 16:59:23.520 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 2,5 грама златно кюлче Valcambi: Selling: 466.0 BGN, Buying: 521.0 BGN
+2025-02-05 16:59:23.521 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 2,5 грама златно кюлче PAMP Фортуна: Selling: 466.0 BGN, Buying: 525.0 BGN
+2025-02-05 16:59:23.522 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 2 грама златно кюлче Argor-Heraeus: Selling: 373.0 BGN, Buying: 417.0 BGN
+2025-02-05 16:59:23.523 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам златно кюлче Valcambi: Selling: 183.0 BGN, Buying: 219.0 BGN
+2025-02-05 16:59:23.523 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам златно кюлче PAMP Фортуна: Selling: 183.0 BGN, Buying: 221.0 BGN
+2025-02-05 16:59:23.524 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам златно кюлче Argor-Heraeus: Selling: 183.0 BGN, Buying: 218.0 BGN
+2025-02-05 16:59:23.525 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Американски орел: Selling: 5532.0 BGN, Buying: 5754.0 BGN
+2025-02-05 16:59:23.527 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 долара двоен орел лейди Либърти: Selling: 5195.0 BGN, Buying: 6116.0 BGN
+2025-02-05 16:59:23.528 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Американски бизон: Selling: 5613.0 BGN, Buying: 5863.0 BGN
+2025-02-05 16:59:23.530 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Кругерранд, Южна Африка: Selling: 5456.0 BGN, Buying: 5566.0 BGN
+2025-02-05 16:59:23.531 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Слон Южна Африка - Големите 5: Selling: 5532.0 BGN, Buying: 5646.0 BGN
+2025-02-05 16:59:23.533 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Заека 2023: Selling: 5586.0 BGN, Buying: 6268.0 BGN
+2025-02-05 16:59:23.534 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Австралийски лунар година на Дракона 2024: Selling: 5695.0 BGN, Buying: 5976.0 BGN
+2025-02-05 16:59:23.535 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/4 унция златна монета Австралийски лунар година на Дракона 2024: Selling: 1423.0 BGN, Buying: 1621.0 BGN
+2025-02-05 16:59:23.536 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/10 унция златна монета Австралийски лунар година на Дракона 2024: Selling: 570.0 BGN, Buying: 703.0 BGN
+2025-02-05 16:59:23.537 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/20 унция златна монета Австралийски лунар година на Дракона 2024: Selling: 271.0 BGN, Buying: 397.0 BGN
+2025-02-05 16:59:23.538 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Австралийски лунар година на Змията 2025: Selling: 5640.0 BGN, Buying: 5754.0 BGN
+2025-02-05 16:59:23.539 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/2 унция златна монета Австралийски лунар година на Змията 2025: Selling: 2766.0 BGN, Buying: 3080.0 BGN
+2025-02-05 16:59:23.540 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/4 унция златна монета Австралийски лунар година на Змията 2025: Selling: 1423.0 BGN, Buying: 1594.0 BGN
+2025-02-05 16:59:23.540 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/10 унция златна монета Австралийски лунар година на Змията 2025: Selling: 570.0 BGN, Buying: 692.0 BGN
+2025-02-05 16:59:23.541 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/20 унция златна монета Австралийски лунар година на Змията 2025: Selling: 271.0 BGN, Buying: 397.0 BGN
+2025-02-05 16:59:23.543 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам златно кюлче Argor-Heraeus лунар Змия 2025: Selling: 209.0 BGN, Buying: 264.0 BGN
+2025-02-05 16:59:23.545 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 5 грама златно кюлче Argor-Heraeus лунар Змия 2025: Selling: 916.0 BGN, Buying: 1017.0 BGN
+2025-02-05 16:59:23.546 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Руска златна монета 5 рубли Николай II: Selling: 742.0 BGN, Buying: 974.0 BGN
+2025-02-05 16:59:23.547 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 рубли Николай II Русия: Selling: 1485.0 BGN, Buying: 2017.0 BGN
+2025-02-05 16:59:23.548 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златна монета 20 франка Мариана: Selling: 1033.0 BGN, Buying: 1063.0 BGN
+2025-02-05 16:59:23.548 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 германски марки Вилхелм II: Selling: 1250.0 BGN, Buying: 1307.0 BGN
+2025-02-05 16:59:23.549 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 френски франка Наполеон III: Selling: 1033.0 BGN, Buying: 1063.0 BGN
+2025-02-05 16:59:23.550 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 френски франка златна монета Наполеон III с лавров венец: Selling: 1033.0 BGN, Buying: 1063.0 BGN
+2025-02-05 16:59:23.550 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 франка френски Наполеон III: Selling: 562.0 BGN, Buying: 643.0 BGN
+2025-02-05 16:59:23.551 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 10 френски франка златна монета Наполеон III с лавров венец
+2025-02-05 16:59:23.552 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златна монета 20 френски франка Серес: Selling: 1033.0 BGN, Buying: 1063.0 BGN
+2025-02-05 16:59:23.553 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 френски франка златна монета Гениус: Selling: 1033.0 BGN, Buying: 1063.0 BGN
+2025-02-05 16:59:23.553 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 белгийски франка златна монета Леополд II: Selling: 1035.0 BGN, Buying: 1065.0 BGN
+2025-02-05 16:59:23.554 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 франка златна монета Швейцария Вренели: Selling: 1033.0 BGN, Buying: 1065.0 BGN
+2025-02-05 16:59:23.555 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 лири Виктор Емануил II Италия: Selling: 1035.0 BGN, Buying: 1080.0 BGN
+2025-02-05 16:59:23.555 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 лири златна монета Умберто I, Италия: Selling: 1035.0 BGN, Buying: 1065.0 BGN
+2025-02-05 16:59:23.556 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 4 австрийски дуката златна монета Франц Йосиф: Selling: 2402.0 BGN, Buying: 2595.0 BGN
+2025-02-05 16:59:23.557 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 австрийски дукат златна монета Франц Йосиф: Selling: 618.0 BGN, Buying: 652.0 BGN
+2025-02-05 16:59:23.558 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 8 форинта/20 франка Франц Йосиф Унгария: Selling: 1033.0 BGN, Buying: 1090.0 BGN
+2025-02-05 16:59:23.560 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златна монета 4 флорина/10 франка Франц Йосиф Австрия: Selling: 542.0 BGN, Buying: 579.0 BGN
+2025-02-05 16:59:23.561 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 10 гулдена Вилхелмина Холандия: Selling: 1051.0 BGN, Buying: 1142.0 BGN
+2025-02-05 16:59:23.562 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен Мемориален Суверен Чарлз III Великобритания 2022г.: Selling: 1302.0 BGN, Buying: 1361.0 BGN
+2025-02-05 16:59:23.562 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен Суверен Чарлз III Великобритания: Selling: 1308.0 BGN, Buying: 1367.0 BGN
+2025-02-05 16:59:23.563 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен суверен Елизабет II 1957-2021 Великобритания: Selling: 1277.0 BGN, Buying: 1325.0 BGN
+2025-02-05 16:59:23.564 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен суверен Едуард VII Великобритания: Selling: 1277.0 BGN, Buying: 1348.0 BGN
+2025-02-05 16:59:23.565 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен суверен Джордж V Великобритания: Selling: 1277.0 BGN, Buying: 1348.0 BGN
+2025-02-05 16:59:23.566 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златен суверен Виктория Великобритания: Selling: 1277.0 BGN, Buying: 1361.0 BGN
+2025-02-05 16:59:23.567 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Британски златен суверен Елизабет II, 2022г.: Selling: 1316.0 BGN, Buying: 1425.0 BGN
+2025-02-05 16:59:23.568 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 20 франка златна монета Тунис: Selling: 1028.0 BGN, Buying: 1120.0 BGN
+2025-02-05 16:59:23.569 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златна монета 100 турски куруша: Selling: 1130.0 BGN, Buying: 1241.0 BGN
+2025-02-05 16:59:23.570 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 50 песос Мексико: Selling: 6539.0 BGN, Buying: 6938.0 BGN
+2025-02-05 16:59:23.571 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for Златна монета 100 австрийски корони Франц Йосиф: Selling: 5237.0 BGN, Buying: 5614.0 BGN
+2025-02-05 16:59:23.572 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 30 грама златна монета Китайска панда 2025: Selling: 5335.0 BGN, Buying: 5655.0 BGN
+2025-02-05 16:59:23.573 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 15 грама златна монета Китайска панда 2025: Selling: 2668.0 BGN, Buying: 2918.0 BGN
+2025-02-05 16:59:23.575 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 8 грама златна монета Китайска панда 2025: Selling: 1423.0 BGN, Buying: 1598.0 BGN
+2025-02-05 16:59:23.577 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 3 грама златна монета Китайска панда 2025: Selling: 533.0 BGN, Buying: 678.0 BGN
+2025-02-05 16:59:23.578 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 грам златна монета Китайска панда 2025: Selling: 178.0 BGN, Buying: 270.0 BGN
+2025-02-05 16:59:23.580 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Тигъра 2022: Selling: 5586.0 BGN, Buying: 8105.0 BGN
+2025-02-05 16:59:23.582 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Вола 2021: Selling: 5586.0 BGN, Buying: 6484.0 BGN
+2025-02-05 16:59:23.583 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета Австралийски лунар година на Мишката 2020: Selling: 5586.0 BGN, Buying: 6376.0 BGN
+2025-02-05 16:59:23.584 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета австралийски лунар година на Кучето 2018: Selling: 5586.0 BGN, Buying: 6376.0 BGN
+2025-02-05 16:59:23.586 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Петела 2017: Selling: 5586.0 BGN, Buying: 6376.0 BGN
+2025-02-05 16:59:23.588 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Маймуната 2016: Selling: 5586.0 BGN, Buying: 6376.0 BGN
+2025-02-05 16:59:23.589 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Змията 2013: Selling: 5586.0 BGN, Buying: 6484.0 BGN
+2025-02-05 16:59:23.589 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция австралиисйки лунар година на дракона 2012: Selling: 5586.0 BGN, Buying: 6376.0 BGN
+2025-02-05 16:59:23.591 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета австралийски лунар година на Заека 2011: Selling: 5586.0 BGN, Buying: 6376.0 BGN
+2025-02-05 16:59:23.592 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Вола 2009: Selling: 5586.0 BGN, Buying: 6376.0 BGN
+2025-02-05 16:59:23.595 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета австралийски лунар година на Мишката 2008: Selling: 5586.0 BGN, Buying: 6376.0 BGN
+2025-02-05 16:59:23.597 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Прасето 2007: Selling: 5586.0 BGN, Buying: 6376.0 BGN
+2025-02-05 16:59:23.598 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Петела 2005: Selling: 5586.0 BGN, Buying: 6376.0 BGN
+2025-02-05 16:59:23.600 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета австралийски лунар година на Маймуната 2004: Selling: 5586.0 BGN, Buying: 6376.0 BGN
+2025-02-05 16:59:23.601 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Козата 2003: Selling: 5586.0 BGN, Buying: 6376.0 BGN
+2025-02-05 16:59:23.602 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златна монета австралийки Лунар 2000 година на дракона: Selling: 5586.0 BGN, Buying: 7294.0 BGN
+2025-02-05 16:59:23.603 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Тигъра 2010
+2025-02-05 16:59:23.605 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Кучето 2006: Selling: 5586.0 BGN, Buying: 6376.0 BGN
+2025-02-05 16:59:23.607 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Тигъра 1998: Selling: 5586.0 BGN, Buying: 6754.0 BGN
+2025-02-05 16:59:23.609 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция златен австралийски лунар година на Вола 1997: Selling: 5586.0 BGN, Buying: 6754.0 BGN
+2025-02-05 16:59:23.611 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Мишката 1996
+2025-02-05 16:59:23.612 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция златен австралийски лунар година на Коня 2014
+2025-02-05 16:59:23.613 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 5 грама златно кюлче Argor-Heraeus лунар Дракон 2024
+2025-02-05 16:59:23.613 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 грам златно кюлче Argor-Heraeus лунар Дракон 2024
+2025-02-05 16:59:23.614 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 30 грама златна монета Китайска панда 2024
+2025-02-05 16:59:23.615 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 15 грама златна монета Китайска панда 2024
+2025-02-05 16:59:23.616 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 8 грама златна монета Китайска панда 2024
+2025-02-05 16:59:23.617 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 3 грама златна монета Китайска панда 2024
+2025-02-05 16:59:23.618 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 грам златна монета Китайска панда 2024
+2025-02-05 16:59:23.619 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1/2 унция златна монета Австралийски лунар година на Дракона 2024
+2025-02-05 16:59:23.620 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция златна монета Пазителите на Тюдорите - Драконът на Тюдор 2024г.
+2025-02-05 16:59:23.622 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция златна монета Пазителите на Тюдорите - Еднорогът на Сиймор 2024 г.
+2025-02-05 16:59:23.623 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция златна монета Пазителите на Тюдорите - Бикът от Кларънс 2023 г.
+2025-02-05 16:59:23.624 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция златна монета Британия - Елизабет II
+2025-02-05 16:59:23.625 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция златна монета Пазителите на Тюдорите - Йейлът на Бофорт 2023 г.
+2025-02-05 16:59:23.627 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1/2 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:59:23.628 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1/4 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:59:23.630 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 5 грама златно кюлче PAMP лунар година на Дракона 2024
+2025-02-05 16:59:23.631 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 5 грама златно кюлче PAMP лунар година на Заека 2023
+2025-02-05 16:59:23.632 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1/10 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:59:23.633 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 15 грама златна монета Китайска панда 2023
+2025-02-05 16:59:23.634 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1/20 унция златен австралийски лунар година на Заека 2023
+2025-02-05 16:59:23.635 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 30 грама златна монета Китайска панда 2023
+2025-02-05 16:59:23.636 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 8 грама златна монета Китайска панда 2023
+2025-02-05 16:59:23.637 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 3 грама златна монета Китайска панда 2023
+2025-02-05 16:59:23.638 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 грам златна монета Китайска панда 2023
+2025-02-05 16:59:23.639 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 100 грама златно кюлче PAMP Фортуна
+2025-02-05 16:59:23.640 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 50 грама златно кюлче PAMP Фортуна
+2025-02-05 16:59:23.641 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция златно кюлче PAMP Фортуна
+2025-02-05 16:59:23.644 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 10 крони Кристиян X Дания
+2025-02-05 16:59:23.645 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 10 Гулдена Вилхелм III Холандия
+2025-02-05 16:59:23.646 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 30 грама златна монета Китайска панда 2022
+2025-02-05 16:59:23.648 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: Златна монета 10 франка Мариана
+2025-02-05 16:59:23.649 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 килограм златно кюлче Valcambi
+2025-02-05 16:59:23.649 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: Златни кюлчета
+2025-02-05 16:59:23.650 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: Златни монети
+2025-02-05 16:59:23.651 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: Злато за подарък
+2025-02-05 16:59:23.651 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: Valcambi Suisse
+2025-02-05 16:59:23.652 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: Модерни инвестиционни монети
+2025-02-05 16:59:23.653 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: Исторически монети
+2025-02-05 16:59:23.833 | SUCCESS  | __main__:save_to_excel:155 - Data saved to price_history_gold.xlsx
+2025-02-05 16:59:23.834 | SUCCESS  | __main__:scrape_prices:283 - Successfully scraped 102 products
+2025-02-05 16:59:23.834 | INFO     | __main__:generate_report:296 - Generating price report
+2025-02-05 16:59:33.468 | SUCCESS  | __main__:generate_report:321 - Price trend report generated successfully
+2025-02-05 17:02:24.834 | INFO     | __main__:scrape_prices:161 - Starting price scraping
+2025-02-05 17:02:32.180 | DEBUG    | __main__:get_page_content:59 - Accessing https://tavex.bg/srebro
+2025-02-05 17:02:37.794 | DEBUG    | __main__:get_page_content:78 - No cookie consent button found or already accepted
+2025-02-05 17:02:37.809 | DEBUG    | __main__:get_page_content:93 - Found selector: ('class name', 'product')
+2025-02-05 17:02:51.193 | DEBUG    | __main__:scrape_prices:184 - Found 28 product items
+2025-02-05 17:02:51.193 | DEBUG    | __main__:scrape_prices:192 - Found 28 product items
+2025-02-05 17:02:51.194 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 0,25 грама златно кюлче Tavex
+2025-02-05 17:02:51.194 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 грам абонаментно златно кюлче Tavex
+2025-02-05 17:02:51.194 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция златна монета Австралийски лунар година на Змията 2025
+2025-02-05 17:02:51.195 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 5 грама златно кюлче PAMP лунар година на Змията 2025
+2025-02-05 17:02:51.195 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 5 грама златно кюлче Argor-Heraeus лунар Змия 2025
+2025-02-05 17:02:51.196 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 грам златно кюлче Argor-Heraeus лунар Змия 2025
+2025-02-05 17:02:51.197 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 килограм сребърно кюлче Valcambi: Selling: 2040.76 BGN, Buying: 2603.1 BGN
+2025-02-05 17:02:51.197 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция Сребърна монета Кругерранд, Южна Африка: Selling: 72.89 BGN, Buying: 75.98 BGN
+2025-02-05 17:02:51.198 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 25 бр. 1 унция сребърна монета Кругерранд, Южна Африка
+2025-02-05 17:02:51.199 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 500 бр. 1 унция сребърна монета Кругерранд, Южна Африка
+2025-02-05 17:02:51.200 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция сребърна монета Британия
+2025-02-05 17:02:51.201 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/10 унция сребърна монета Британия: Selling: 9.11 BGN, Buying: 12.16 BGN
+2025-02-05 17:02:51.202 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция сребърна монета Виенска Филхармония: Selling: 62.56 BGN, Buying: 79.51 BGN
+2025-02-05 17:02:51.203 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция сребърна монета канадски кленов лист: Selling: 62.56 BGN, Buying: 80.23 BGN
+2025-02-05 17:02:51.205 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция сребърна монета Австралийско кенгуру: Selling: 62.56 BGN, Buying: 79.51 BGN
+2025-02-05 17:02:51.206 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция сребърна монета Американски орел: Selling: 66.82 BGN, Buying: 116.71 BGN
+2025-02-05 17:02:51.207 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция сребърен австралийски лунар Змия 2025: Selling: 78.96 BGN, Buying: 175.06 BGN
+2025-02-05 17:02:51.208 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 30 грама сребърна монета Китайска панда 2025: Selling: 64.44 BGN, Buying: 154.78 BGN
+2025-02-05 17:02:51.209 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция сребърен австралийски лунар Дракон 2024: Selling: 78.96 BGN, Buying: 175.06 BGN
+2025-02-05 17:02:51.211 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция сребърен австралийски лунар Заек 2023: Selling: 78.96 BGN, Buying: 204.24 BGN
+2025-02-05 17:02:51.212 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 30 грама сребърна монета Китайска панда 2024
+2025-02-05 17:02:51.213 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 30 грама сребърна монета Китайска панда 2023
+2025-02-05 17:02:51.214 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 25 бр. 1 унция сребърна монета Британия
+2025-02-05 17:02:51.215 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 500 бр. 1 унция Сребърна монета Британия
+2025-02-05 17:02:51.216 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция сребърна австралийска коала
+2025-02-05 17:02:51.217 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция сребърна монета австралийски лунар година на Тигъра 2022
+2025-02-05 17:02:51.219 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 30 грама сребърна монета Китайска панда 2022
+2025-02-05 17:02:51.219 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция  Кукабура 2022 година
+2025-02-05 17:02:51.405 | SUCCESS  | __main__:save_to_excel:155 - Data saved to price_history_silver.xlsx
+2025-02-05 17:02:51.405 | SUCCESS  | __main__:scrape_prices:283 - Successfully scraped 11 products
+2025-02-05 17:02:51.405 | INFO     | __main__:generate_report:296 - Generating price report
+2025-02-05 17:02:54.750 | SUCCESS  | __main__:generate_report:321 - Price trend report generated successfully
+2025-02-05 17:05:07.718 | INFO     | __main__:scrape_prices:161 - Starting price scraping
+2025-02-05 17:05:15.867 | DEBUG    | __main__:get_page_content:59 - Accessing https://tavex.bg/srebro
+2025-02-05 17:05:22.653 | DEBUG    | __main__:get_page_content:78 - No cookie consent button found or already accepted
+2025-02-05 17:05:22.656 | DEBUG    | __main__:get_page_content:93 - Found selector: ('class name', 'product')
+2025-02-05 17:05:33.414 | DEBUG    | __main__:scrape_prices:184 - Found 28 product items
+2025-02-05 17:05:33.415 | DEBUG    | __main__:scrape_prices:192 - Found 28 product items
+2025-02-05 17:05:33.415 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 0,25 грама златно кюлче Tavex
+2025-02-05 17:05:33.416 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 грам абонаментно златно кюлче Tavex
+2025-02-05 17:05:33.416 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция златна монета Австралийски лунар година на Змията 2025
+2025-02-05 17:05:33.416 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 5 грама златно кюлче PAMP лунар година на Змията 2025
+2025-02-05 17:05:33.417 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 5 грама златно кюлче Argor-Heraeus лунар Змия 2025
+2025-02-05 17:05:33.417 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 грам златно кюлче Argor-Heraeus лунар Змия 2025
+2025-02-05 17:05:33.418 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 килограм сребърно кюлче Valcambi: Selling: 2040.76 BGN, Buying: 2603.1 BGN
+2025-02-05 17:05:33.419 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция Сребърна монета Кругерранд, Южна Африка: Selling: 72.89 BGN, Buying: 75.98 BGN
+2025-02-05 17:05:33.420 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 25 бр. 1 унция сребърна монета Кругерранд, Южна Африка
+2025-02-05 17:05:33.421 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 500 бр. 1 унция сребърна монета Кругерранд, Южна Африка
+2025-02-05 17:05:33.422 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция сребърна монета Британия
+2025-02-05 17:05:33.424 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1/10 унция сребърна монета Британия: Selling: 9.11 BGN, Buying: 12.16 BGN
+2025-02-05 17:05:33.425 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция сребърна монета Виенска Филхармония: Selling: 62.56 BGN, Buying: 79.51 BGN
+2025-02-05 17:05:33.426 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция сребърна монета канадски кленов лист: Selling: 62.56 BGN, Buying: 80.23 BGN
+2025-02-05 17:05:33.427 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция сребърна монета Австралийско кенгуру: Selling: 62.56 BGN, Buying: 79.51 BGN
+2025-02-05 17:05:33.428 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция сребърна монета Американски орел: Selling: 66.82 BGN, Buying: 116.71 BGN
+2025-02-05 17:05:33.429 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция сребърен австралийски лунар Змия 2025: Selling: 78.96 BGN, Buying: 175.06 BGN
+2025-02-05 17:05:33.430 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 30 грама сребърна монета Китайска панда 2025: Selling: 64.44 BGN, Buying: 154.78 BGN
+2025-02-05 17:05:33.432 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция сребърен австралийски лунар Дракон 2024: Selling: 78.96 BGN, Buying: 175.06 BGN
+2025-02-05 17:05:33.433 | DEBUG    | __main__:scrape_prices:267 - Successfully scraped prices for 1 унция сребърен австралийски лунар Заек 2023: Selling: 78.96 BGN, Buying: 204.24 BGN
+2025-02-05 17:05:33.434 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 30 грама сребърна монета Китайска панда 2024
+2025-02-05 17:05:33.435 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 30 грама сребърна монета Китайска панда 2023
+2025-02-05 17:05:33.436 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 25 бр. 1 унция сребърна монета Британия
+2025-02-05 17:05:33.437 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 500 бр. 1 унция Сребърна монета Британия
+2025-02-05 17:05:33.438 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция сребърна австралийска коала
+2025-02-05 17:05:33.438 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция сребърна монета австралийски лунар година на Тигъра 2022
+2025-02-05 17:05:33.439 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 30 грама сребърна монета Китайска панда 2022
+2025-02-05 17:05:33.441 | DEBUG    | __main__:scrape_prices:208 - Could not find buying price for product with name: 1 унция  Кукабура 2022 година
+2025-02-05 17:05:33.600 | SUCCESS  | __main__:save_to_excel:155 - Data saved to price_history_silver.xlsx
+2025-02-05 17:05:33.600 | SUCCESS  | __main__:scrape_prices:283 - Successfully scraped 11 products
+2025-02-05 17:05:33.601 | INFO     | __main__:generate_report:296 - Generating price report
+2025-02-05 17:05:35.149 | SUCCESS  | __main__:generate_report:321 - Price trend report generated successfully
+2025-02-05 17:13:52.040 | INFO     | __main__:scrape_prices:161 - Starting price scraping
+2025-02-05 17:13:58.814 | DEBUG    | __main__:get_page_content:59 - Accessing https://tavex.bg/srebro
+2025-02-05 17:14:02.833 | DEBUG    | __main__:get_page_content:78 - No cookie consent button found or already accepted
+2025-02-05 17:14:02.838 | DEBUG    | __main__:get_page_content:93 - Found selector: ('class name', 'product')
+2025-02-05 17:14:12.184 | DEBUG    | __main__:scrape_prices:184 - Found 28 product items
+2025-02-05 17:14:12.184 | DEBUG    | __main__:scrape_prices:192 - Found 28 product items
+2025-02-05 17:14:12.185 | DEBUG    | __main__:scrape_prices:215 - Could not find buying price for product with name: 0,25 грама златно кюлче Tavex
+2025-02-05 17:14:12.185 | DEBUG    | __main__:scrape_prices:215 - Could not find buying price for product with name: 1 грам абонаментно златно кюлче Tavex
+2025-02-05 17:14:12.186 | DEBUG    | __main__:scrape_prices:215 - Could not find buying price for product with name: 1 унция златна монета Австралийски лунар година на Змията 2025
+2025-02-05 17:14:12.186 | DEBUG    | __main__:scrape_prices:215 - Could not find buying price for product with name: 5 грама златно кюлче PAMP лунар година на Змията 2025
+2025-02-05 17:14:12.186 | DEBUG    | __main__:scrape_prices:215 - Could not find buying price for product with name: 5 грама златно кюлче Argor-Heraeus лунар Змия 2025
+2025-02-05 17:14:12.187 | DEBUG    | __main__:scrape_prices:215 - Could not find buying price for product with name: 1 грам златно кюлче Argor-Heraeus лунар Змия 2025
+2025-02-05 17:14:12.188 | DEBUG    | __main__:scrape_prices:279 - Successfully scraped prices for 1 килограм сребърно кюлче Valcambi: Selling: 2042.72 BGN, Buying: 2608.5 BGN
+2025-02-05 17:14:12.189 | DEBUG    | __main__:scrape_prices:279 - Successfully scraped prices for 1 унция Сребърна монета Кругерранд, Южна Африка: Selling: 72.96 BGN, Buying: 76.14 BGN
+2025-02-05 17:14:12.189 | DEBUG    | __main__:scrape_prices:210 - Product 25 бр. 1 унция сребърна монета Кругерранд, Южна Африка is out of stock
+2025-02-05 17:14:12.190 | DEBUG    | __main__:scrape_prices:277 - Successfully scraped out of stock product 25 бр. 1 унция сребърна монета Кругерранд, Южна Африка: Selling: 1824.0 BGN
+2025-02-05 17:14:12.191 | DEBUG    | __main__:scrape_prices:210 - Product 500 бр. 1 унция сребърна монета Кругерранд, Южна Африка is out of stock
+2025-02-05 17:14:12.192 | DEBUG    | __main__:scrape_prices:277 - Successfully scraped out of stock product 500 бр. 1 унция сребърна монета Кругерранд, Южна Африка: Selling: 36480.0 BGN
+2025-02-05 17:14:12.192 | DEBUG    | __main__:scrape_prices:210 - Product 1 унция сребърна монета Британия is out of stock
+2025-02-05 17:14:12.194 | DEBUG    | __main__:scrape_prices:277 - Successfully scraped out of stock product 1 унция сребърна монета Британия: Selling: 72.96 BGN
+2025-02-05 17:14:12.195 | DEBUG    | __main__:scrape_prices:279 - Successfully scraped prices for 1/10 унция сребърна монета Британия: Selling: 9.12 BGN, Buying: 12.18 BGN
+2025-02-05 17:14:12.196 | DEBUG    | __main__:scrape_prices:279 - Successfully scraped prices for 1 унция сребърна монета Виенска Филхармония: Selling: 62.62 BGN, Buying: 79.67 BGN
+2025-02-05 17:14:12.198 | DEBUG    | __main__:scrape_prices:279 - Successfully scraped prices for 1 унция сребърна монета канадски кленов лист: Selling: 62.62 BGN, Buying: 80.4 BGN
+2025-02-05 17:14:12.200 | DEBUG    | __main__:scrape_prices:279 - Successfully scraped prices for 1 унция сребърна монета Австралийско кенгуру: Selling: 62.62 BGN, Buying: 79.67 BGN
+2025-02-05 17:14:12.201 | DEBUG    | __main__:scrape_prices:279 - Successfully scraped prices for 1 унция сребърна монета Американски орел: Selling: 66.88 BGN, Buying: 116.95 BGN
+2025-02-05 17:14:12.203 | DEBUG    | __main__:scrape_prices:279 - Successfully scraped prices for 1 унция сребърен австралийски лунар Змия 2025: Selling: 79.04 BGN, Buying: 175.43 BGN
+2025-02-05 17:14:12.205 | DEBUG    | __main__:scrape_prices:279 - Successfully scraped prices for 30 грама сребърна монета Китайска панда 2025: Selling: 64.51 BGN, Buying: 155.1 BGN
+2025-02-05 17:14:12.206 | DEBUG    | __main__:scrape_prices:279 - Successfully scraped prices for 1 унция сребърен австралийски лунар Дракон 2024: Selling: 79.04 BGN, Buying: 175.43 BGN
+2025-02-05 17:14:12.208 | DEBUG    | __main__:scrape_prices:279 - Successfully scraped prices for 1 унция сребърен австралийски лунар Заек 2023: Selling: 79.04 BGN, Buying: 204.66 BGN
+2025-02-05 17:14:12.208 | DEBUG    | __main__:scrape_prices:210 - Product 30 грама сребърна монета Китайска панда 2024 is out of stock
+2025-02-05 17:14:12.210 | DEBUG    | __main__:scrape_prices:277 - Successfully scraped out of stock product 30 грама сребърна монета Китайска панда 2024: Selling: 64.51 BGN
+2025-02-05 17:14:12.211 | DEBUG    | __main__:scrape_prices:210 - Product 30 грама сребърна монета Китайска панда 2023 is out of stock
+2025-02-05 17:14:12.213 | DEBUG    | __main__:scrape_prices:277 - Successfully scraped out of stock product 30 грама сребърна монета Китайска панда 2023: Selling: 64.51 BGN
+2025-02-05 17:14:12.213 | DEBUG    | __main__:scrape_prices:210 - Product 25 бр. 1 унция сребърна монета Британия is out of stock
+2025-02-05 17:14:12.215 | DEBUG    | __main__:scrape_prices:277 - Successfully scraped out of stock product 25 бр. 1 унция сребърна монета Британия: Selling: 1824.0 BGN
+2025-02-05 17:14:12.216 | DEBUG    | __main__:scrape_prices:210 - Product 500 бр. 1 унция Сребърна монета Британия is out of stock
+2025-02-05 17:14:12.217 | DEBUG    | __main__:scrape_prices:277 - Successfully scraped out of stock product 500 бр. 1 унция Сребърна монета Британия: Selling: 36480.0 BGN
+2025-02-05 17:14:12.218 | DEBUG    | __main__:scrape_prices:210 - Product 1 унция сребърна австралийска коала is out of stock
+2025-02-05 17:14:12.219 | DEBUG    | __main__:scrape_prices:277 - Successfully scraped out of stock product 1 унция сребърна австралийска коала: Selling: 66.88 BGN
+2025-02-05 17:14:12.219 | DEBUG    | __main__:scrape_prices:210 - Product 1 унция сребърна монета австралийски лунар година на Тигъра 2022 is out of stock
+2025-02-05 17:14:12.221 | DEBUG    | __main__:scrape_prices:277 - Successfully scraped out of stock product 1 унция сребърна монета австралийски лунар година на Тигъра 2022: Selling: 66.88 BGN
+2025-02-05 17:14:12.221 | DEBUG    | __main__:scrape_prices:210 - Product 30 грама сребърна монета Китайска панда 2022 is out of stock
+2025-02-05 17:14:12.222 | DEBUG    | __main__:scrape_prices:277 - Successfully scraped out of stock product 30 грама сребърна монета Китайска панда 2022: Selling: 64.51 BGN
+2025-02-05 17:14:12.223 | DEBUG    | __main__:scrape_prices:210 - Product 1 унция  Кукабура 2022 година is out of stock
+2025-02-05 17:14:12.223 | DEBUG    | __main__:scrape_prices:277 - Successfully scraped out of stock product 1 унция  Кукабура 2022 година: Selling: 66.88 BGN
+2025-02-05 17:14:12.402 | SUCCESS  | __main__:save_to_excel:155 - Data saved to price_history_silver.xlsx
+2025-02-05 17:14:12.402 | SUCCESS  | __main__:scrape_prices:295 - Successfully scraped 22 products
+2025-02-05 17:14:12.403 | INFO     | __main__:generate_report:308 - Generating price report
+2025-02-05 17:14:14.872 | SUCCESS  | __main__:generate_report:333 - Price trend report generated successfully
