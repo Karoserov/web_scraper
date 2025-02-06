@@ -19,9 +19,9 @@ from fake_useragent import UserAgent
 logger.add("scraper.log", rotation="1 day")
 
 # Constants
-EXCEL_FILE = "price_history_silver.xlsx" # here after history_ should put what is the name of the excel file
+EXCEL_FILE = "price_history_gold.xlsx" # here after history_ should put what is the name of the excel file
 BASE_URL = "https://tavex.bg" # here should be the main page and should start with https:
-url = f"{BASE_URL}/srebro" #here after the / there should be the redirect of the main page
+url = f"{BASE_URL}/zlato" #here after the / there should be the redirect of the main page
 
 def setup_driver() -> webdriver.Firefox:
     """Setup and return a Firefox webdriver with proper options"""
@@ -144,7 +144,7 @@ def load_existing_data() -> pd.DataFrame:
     """Load existing price history from Excel file"""
     if os.path.exists(EXCEL_FILE):
         return pd.read_excel(EXCEL_FILE)
-    return pd.DataFrame(columns=['Timestamp', 'Product', 'Selling_Price', 'Buying_Price', 'URL']).reindex(columns=['Timestamp', 'Product', 'Selling_Price', 'Buying_Price', 'URL'])
+    return pd.DataFrame(columns=['Timestamp', 'Product', 'Buying_Price', 'Selling_Price', 'URL']).reindex(columns=['Timestamp', 'Product', 'Selling_Price', 'Buying_Price', 'URL'])
 
 def save_to_excel(new_data: pd.DataFrame):
     """Save price data to Excel file"""
