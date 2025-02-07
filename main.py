@@ -408,10 +408,7 @@ def scrape_prices():
                 'Product': products,
                 'Selling_Price': selling_prices,
                 'Buying_Price': buying_prices,
-                'Selling_Price': selling_prices,
-                'Buying_Price': buying_prices,
                 'URL': urls
-            }).reindex(columns=['Timestamp', 'Product', 'Selling_Price', 'Buying_Price', 'URL'])
             }).reindex(columns=['Timestamp', 'Product', 'Selling_Price', 'Buying_Price', 'URL'])
             save_to_excel(new_data)
             logger.success(f"Successfully scraped {products_scraped} products")
