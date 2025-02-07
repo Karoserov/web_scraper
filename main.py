@@ -14,6 +14,8 @@ import os
 import time
 import random
 from fake_useragent import UserAgent
+import random
+from fake_useragent import UserAgent
 
 # Configure logger
 logger.add("scraper.log", rotation="1 day")
@@ -41,8 +43,28 @@ def setup_driver() -> webdriver.Firefox:
     firefox_options.set_preference("dom.webdriver.enabled", False)
     firefox_options.set_preference('useAutomationExtension', False)
     
+    # Generate random user agent
+    try:
+        ua = UserAgent()
+        user_agent = ua.random
+    except Exception:
+        user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    
+    firefox_options.add_argument(f'user-agent={user_agent}')
+    
+    # Add additional Firefox preferences to make it more browser-like
+    firefox_options.set_preference("dom.webdriver.enabled", False)
+    firefox_options.set_preference('useAutomationExtension', False)
+    
     service = Service(GeckoDriverManager().install())
     driver = webdriver.Firefox(service=service, options=firefox_options)
+    
+    # Set longer timeout for slower connections
+    driver.implicitly_wait(15)  # Wait up to 15 seconds for elements to appear
+    
+    # Set window size to a common desktop resolution
+    driver.set_window_size(1920, 1080)
+    
     
     # Set longer timeout for slower connections
     driver.implicitly_wait(15)  # Wait up to 15 seconds for elements to appear
@@ -61,7 +83,15 @@ def get_page_content(url: str) -> str:
         # Add random delay before accessing the page (2-5 seconds)
         time.sleep(random.uniform(2, 5))
         
+        
+        # Add random delay before accessing the page (2-5 seconds)
+        time.sleep(random.uniform(2, 5))
+        
         driver.get(url)
+        
+        # Add random scroll behavior to simulate human browsing
+        scroll_pause_time = random.uniform(0.5, 1.5)
+        screen_heights = [0.3, 0.5, 0.7, 1.0]  # Partial scroll heights
         
         # Add random scroll behavior to simulate human browsing
         scroll_pause_time = random.uniform(0.5, 1.5)
@@ -101,7 +131,15 @@ def get_page_content(url: str) -> str:
             logger.debug("Current page URL: " + driver.current_url)
         
         # Scroll down gradually with random pauses to simulate human behavior
+        # Scroll down gradually with random pauses to simulate human behavior
         last_height = driver.execute_script("return document.body.scrollHeight")
+        
+        for scroll_height in screen_heights:
+            # Scroll to a percentage of the page height
+            driver.execute_script(f"window.scrollTo(0, document.body.scrollHeight * {scroll_height});")
+            time.sleep(scroll_pause_time)
+        
+        # Final scroll to bottom
         
         for scroll_height in screen_heights:
             # Scroll to a percentage of the page height
@@ -112,10 +150,14 @@ def get_page_content(url: str) -> str:
         while True:
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(random.uniform(1, 2))
+            time.sleep(random.uniform(1, 2))
             new_height = driver.execute_script("return document.body.scrollHeight")
             if new_height == last_height:
                 break
             last_height = new_height
+            
+        # Add a final wait to ensure all dynamic content is loaded
+        time.sleep(random.uniform(3, 5))
             
         # Add a final wait to ensure all dynamic content is loaded
         time.sleep(random.uniform(3, 5))
@@ -145,6 +187,7 @@ def load_existing_data() -> pd.DataFrame:
     if os.path.exists(EXCEL_FILE):
         return pd.read_excel(EXCEL_FILE)
     return pd.DataFrame(columns=['Timestamp', 'Product', 'Buying_Price', 'Selling_Price', 'URL']).reindex(columns=['Timestamp', 'Product', 'Selling_Price', 'Buying_Price', 'URL'])
+    return pd.DataFrame(columns=['Timestamp', 'Product', 'Buying_Price', 'Selling_Price', 'URL']).reindex(columns=['Timestamp', 'Product', 'Selling_Price', 'Buying_Price', 'URL'])
 
 def save_to_excel(new_data: pd.DataFrame):
     """Save price data to Excel file"""
@@ -170,6 +213,8 @@ def scrape_prices():
         # Lists to store scraped data
         timestamps = []
         products = []
+        selling_prices = []
+        buying_prices = []
         selling_prices = []
         buying_prices = []
         urls = []
@@ -256,7 +301,81 @@ def scrape_prices():
                             selling_price = float(selling_price_text)
                         except ValueError:
                             logger.debug(f"Could not convert selling price text to float: {selling_price_text}")
+                    # Check if product is out of stock
+                    out_of_stock_elem = product.find('span', class_='product__out-of-stock')
+                    is_out_of_stock = False
+                    if out_of_stock_elem and 'Изчерпан' in out_of_stock_elem.text.strip():
+                        is_out_of_stock = True
+                        logger.debug(f"Product {name} is out of stock")
+
+                    # Get buying price (from the element marked as selling price)
+                    buying_price_elem = product.find('span', class_='js-product-price-from')
+                    if not is_out_of_stock and not buying_price_elem:
+                        logger.debug(f"Could not find buying price for product with name: {name}")
+                        continue
+
+                    # Get selling price (from the element marked as buying price)
+                    selling_price_elem = product.find('span', class_='js-product-price-buy')
+                    if not selling_price_elem:
+                        logger.debug(f"Could not find selling price for product with name: {name}")
+                        continue
+
+                    selling_price = None
+                    buying_price = None
                     
+                    # Extract buying price if not out of stock
+                    buying_price = None
+                    if not is_out_of_stock:
+                        buying_price_text = buying_price_elem.text.strip()
+                        buying_price = clean_price(buying_price_text)
+                        if not buying_price:
+                            # Try to get price from data attribute if text parsing fails
+                            try:
+                                price_data = buying_price_elem.get('data-pricelist')
+                                if price_data:
+                                    import json
+                                    price_info = json.loads(price_data)
+                                    buying_price = float(price_info['sell'][0]['price'])
+                            except Exception as e:
+                                logger.debug(f"Could not parse buying price from data attribute: {e}")
+                        
+                        if not buying_price:
+                            logger.debug(f"Could not parse buying price text: {buying_price_text} for product: {name}")
+                            continue
+                    
+                    # Extract selling price - first try to find the price-amount-whole element
+                    selling_price_whole_elem = selling_price_elem.find('span', class_='price-amount-whole')
+                    if selling_price_whole_elem:
+                        selling_price_text = selling_price_whole_elem.text.strip()
+                        # Add decimals if they exist
+                        fraction_elem = selling_price_elem.find('span', class_='price-amount-fraction')
+                        if fraction_elem:
+                            selling_price_text += '.' + fraction_elem.text.strip()
+                        try:
+                            selling_price = float(selling_price_text)
+                        except ValueError:
+                            logger.debug(f"Could not convert selling price text to float: {selling_price_text}")
+                    
+                    if not selling_price:
+                        # Fallback to regular text parsing if structured elements aren't found
+                        selling_price_text = selling_price_elem.text.strip()
+                        selling_price = clean_price(selling_price_text)
+                    
+                    if not selling_price:
+                        logger.debug(f"Could not parse selling price text: {selling_price_text} for product: {name}")
+                        continue
+                    
+                    # If we have all the data, add it to our lists
+                    timestamps.append(current_time)
+                    products.append(name)
+                    selling_prices.append(selling_price)
+                    buying_prices.append(None if is_out_of_stock else buying_price)
+                    urls.append(product_url)
+                    products_scraped += 1
+                    if is_out_of_stock:
+                        logger.debug(f"Successfully scraped out of stock product {name}: Selling: {selling_price} BGN")
+                    else:
+                        logger.debug(f"Successfully scraped prices for {name}: Selling: {selling_price} BGN, Buying: {buying_price} BGN")
                     if not selling_price:
                         # Fallback to regular text parsing if structured elements aren't found
                         selling_price_text = selling_price_elem.text.strip()
@@ -289,7 +408,10 @@ def scrape_prices():
                 'Product': products,
                 'Selling_Price': selling_prices,
                 'Buying_Price': buying_prices,
+                'Selling_Price': selling_prices,
+                'Buying_Price': buying_prices,
                 'URL': urls
+            }).reindex(columns=['Timestamp', 'Product', 'Selling_Price', 'Buying_Price', 'URL'])
             }).reindex(columns=['Timestamp', 'Product', 'Selling_Price', 'Buying_Price', 'URL'])
             save_to_excel(new_data)
             logger.success(f"Successfully scraped {products_scraped} products")
@@ -316,6 +438,12 @@ def generate_report():
         plt.figure(figsize=(12, 8))
         for product in df['Product'].unique():
             product_data = df[df['Product'] == product]
+            # Plot selling price
+            plt.plot(product_data['Timestamp'], product_data['Selling_Price'], 
+                     label=f"{product} (Selling)", marker='o')
+            # Plot buying price
+            plt.plot(product_data['Timestamp'], product_data['Buying_Price'], 
+                     label=f"{product} (Buying)", marker='s')
             # Plot selling price
             plt.plot(product_data['Timestamp'], product_data['Selling_Price'], 
                      label=f"{product} (Selling)", marker='o')
