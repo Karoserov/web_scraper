@@ -1,0 +1,311 @@
+2025-02-06 20:30:10.774 | INFO     | __main__:scrape_prices:122 - Starting price scraping
+2025-02-06 20:30:15.856 | DEBUG    | __main__:get_page_content:38 - Accessing https://tavex.bg/zlato
+2025-02-06 20:30:19.548 | DEBUG    | __main__:get_page_content:49 - No cookie consent button found or already accepted
+2025-02-06 20:30:19.558 | DEBUG    | __main__:get_page_content:64 - Found selector: ('class name', 'product')
+2025-02-06 20:30:23.532 | DEBUG    | __main__:scrape_prices:144 - Found 151 product items
+2025-02-06 20:30:23.533 | DEBUG    | __main__:scrape_prices:152 - Found 151 product items
+2025-02-06 20:30:23.537 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам абонаментно златно кюлче Tavex: 178.0 BGN
+2025-02-06 20:30:23.540 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 0,25 грама златно кюлче Tavex: 47.0 BGN
+2025-02-06 20:30:23.541 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Британия: 5516.0 BGN
+2025-02-06 20:30:23.542 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/10 унция златна монета Британия: 570.0 BGN
+2025-02-06 20:30:23.545 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Виенска Филхармония: 5514.0 BGN
+2025-02-06 20:30:23.546 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/10 унция златна монета Виенска Филхармония: 570.0 BGN
+2025-02-06 20:30:23.547 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Канадски кленов лист: 5516.0 BGN
+2025-02-06 20:30:23.548 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Австралийско кенгуру: 5514.0 BGN
+2025-02-06 20:30:23.549 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 100 грама златно кюлче Valcambi: 17361.0 BGN
+2025-02-06 20:30:23.551 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 100 грама златно кюлче Argor-Heraeus: 17361.0 BGN
+2025-02-06 20:30:23.552 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 0,25 г златно кюлче Tavex, подаръчен пакет: 47.0 BGN
+2025-02-06 20:30:23.553 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 50 x 1 грам комбинирано кюлче Valcambi Suisse CombiBar: 8828.0 BGN
+2025-02-06 20:30:23.555 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 50 грама златно кюлче Valcambi: 8828.0 BGN
+2025-02-06 20:30:23.556 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 50 грама златно кюлче Argor-Heraeus: 8828.0 BGN
+2025-02-06 20:30:23.558 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златно кюлче Valcambi: 5498.0 BGN
+2025-02-06 20:30:23.559 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златно кюлче PAMP Suisse: 5498.0 BGN
+2025-02-06 20:30:23.560 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златно кюлче Argor-Heraeus: 5498.0 BGN
+2025-02-06 20:30:23.561 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 грама златно кюлче Valcambi: 3580.0 BGN
+2025-02-06 20:30:23.562 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 грама златно кюлче PAMP Фортуна: 3580.0 BGN
+2025-02-06 20:30:23.562 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 грама златно кюлче Argor-Heraeus: 3580.0 BGN
+2025-02-06 20:30:23.563 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 грама златно кюлче Valcambi: 1790.0 BGN
+2025-02-06 20:30:23.564 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 грама златно кюлче PAMP Фортуна: 1790.0 BGN
+2025-02-06 20:30:23.566 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 грама златно кюлче Argor-Heraeus: 1790.0 BGN
+2025-02-06 20:30:23.569 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 5 грама златно кюлче Valcambi: 904.0 BGN
+2025-02-06 20:30:23.569 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 5 грама златно кюлче PAMP Фортуна: 904.0 BGN
+2025-02-06 20:30:23.570 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 5 грама златно кюлче PAMP лунар година на Змията 2025: 938.0 BGN
+2025-02-06 20:30:23.570 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 5 грама златно кюлче Argor-Heraeus: 904.0 BGN
+2025-02-06 20:30:23.571 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 2,5 грама златно кюлче Valcambi: 465.0 BGN
+2025-02-06 20:30:23.574 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 2,5 грама златно кюлче PAMP Фортуна: 465.0 BGN
+2025-02-06 20:30:23.575 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 2 грама златно кюлче Argor-Heraeus: 371.0 BGN
+2025-02-06 20:30:23.575 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам златно кюлче Valcambi: 182.0 BGN
+2025-02-06 20:30:23.576 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам златно кюлче PAMP Фортуна: 182.0 BGN
+2025-02-06 20:30:23.577 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам златно кюлче Argor-Heraeus: 182.0 BGN
+2025-02-06 20:30:23.577 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Американски орел: 5516.0 BGN
+2025-02-06 20:30:23.578 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 долара двоен орел лейди Либърти: 5179.0 BGN
+2025-02-06 20:30:23.579 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Американски бизон: 5597.0 BGN
+2025-02-06 20:30:23.580 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Кругерранд, Южна Африка: 5440.0 BGN
+2025-02-06 20:30:23.580 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Слон Южна Африка - Големите 5: 5516.0 BGN
+2025-02-06 20:30:23.581 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Заека 2023: 5570.0 BGN
+2025-02-06 20:30:23.582 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Австралийски лунар година на Дракона 2024: 5678.0 BGN
+2025-02-06 20:30:23.582 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/4 унция златна монета Австралийски лунар година на Дракона 2024: 1419.0 BGN
+2025-02-06 20:30:23.582 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/10 унция златна монета Австралийски лунар година на Дракона 2024: 568.0 BGN
+2025-02-06 20:30:23.583 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/20 унция златна монета Австралийски лунар година на Дракона 2024: 271.0 BGN
+2025-02-06 20:30:23.583 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Австралийски лунар година на Змията 2025: 5624.0 BGN
+2025-02-06 20:30:23.585 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/2 унция златна монета Австралийски лунар година на Змията 2025: 2757.0 BGN
+2025-02-06 20:30:23.585 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/4 унция златна монета Австралийски лунар година на Змията 2025: 1419.0 BGN
+2025-02-06 20:30:23.588 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/10 унция златна монета Австралийски лунар година на Змията 2025: 568.0 BGN
+2025-02-06 20:30:23.591 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/20 унция златна монета Австралийски лунар година на Змията 2025: 271.0 BGN
+2025-02-06 20:30:23.591 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам златно кюлче Argor-Heraeus лунар Змия 2025: 208.0 BGN
+2025-02-06 20:30:23.591 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 5 грама златно кюлче Argor-Heraeus лунар Змия 2025: 912.0 BGN
+2025-02-06 20:30:23.592 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Руска златна монета 5 рубли Николай II: 740.0 BGN
+2025-02-06 20:30:23.593 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 рубли Николай II Русия: 1481.0 BGN
+2025-02-06 20:30:23.594 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златна монета 20 франка Мариана: 1030.0 BGN
+2025-02-06 20:30:23.594 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 германски марки Вилхелм II: 1259.0 BGN
+2025-02-06 20:30:23.594 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 френски франка Наполеон III: 1030.0 BGN
+2025-02-06 20:30:23.596 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 френски франка златна монета Наполеон III с лавров венец: 1030.0 BGN
+2025-02-06 20:30:23.597 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 франка френски Наполеон III: 560.0 BGN
+2025-02-06 20:30:23.597 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 френски франка златна монета Наполеон III с лавров венец: 560.0 BGN
+2025-02-06 20:30:23.598 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златна монета 20 френски франка Серес: 1030.0 BGN
+2025-02-06 20:30:23.598 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 френски франка златна монета Гениус: 1030.0 BGN
+2025-02-06 20:30:23.598 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 белгийски франка златна монета Леополд II: 1032.0 BGN
+2025-02-06 20:30:23.599 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 франка златна монета Швейцария Вренели: 1030.0 BGN
+2025-02-06 20:30:23.600 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 лири Виктор Емануил II Италия: 1032.0 BGN
+2025-02-06 20:30:23.600 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 лири златна монета Умберто I, Италия: 1032.0 BGN
+2025-02-06 20:30:23.601 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 4 австрийски дуката златна монета Франц Йосиф: 2393.0 BGN
+2025-02-06 20:30:23.601 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 австрийски дукат златна монета Франц Йосиф: 616.0 BGN
+2025-02-06 20:30:23.602 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 8 форинта/20 франка Франц Йосиф Унгария: 1030.0 BGN
+2025-02-06 20:30:23.602 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златна монета 4 флорина/10 франка Франц Йосиф Австрия: 539.0 BGN
+2025-02-06 20:30:23.602 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 гулдена Вилхелмина Холандия: 1048.0 BGN
+2025-02-06 20:30:23.603 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златен Мемориален Суверен Чарлз III Великобритания 2022г.: 1298.0 BGN
+2025-02-06 20:30:23.603 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златен Суверен Чарлз III Великобритания: 1304.0 BGN
+2025-02-06 20:30:23.604 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златен суверен Елизабет II 1957-2021 Великобритания: 1273.0 BGN
+2025-02-06 20:30:23.604 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златен суверен Едуард VII Великобритания: 1273.0 BGN
+2025-02-06 20:30:23.605 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златен суверен Джордж V Великобритания: 1273.0 BGN
+2025-02-06 20:30:23.605 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златен суверен Виктория Великобритания: 1273.0 BGN
+2025-02-06 20:30:23.605 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Британски златен суверен Елизабет II, 2022г.: 1311.0 BGN
+2025-02-06 20:30:23.606 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 20 франка златна монета Тунис: 1025.0 BGN
+2025-02-06 20:30:23.607 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златна монета 100 турски куруша: 1127.0 BGN
+2025-02-06 20:30:23.608 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 50 песос Мексико: 6520.0 BGN
+2025-02-06 20:30:23.608 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златна монета 100 австрийски корони Франц Йосиф: 5219.0 BGN
+2025-02-06 20:30:23.611 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 30 грама златна монета Китайска панда 2025: 5320.0 BGN
+2025-02-06 20:30:23.612 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 15 грама златна монета Китайска панда 2025: 2660.0 BGN
+2025-02-06 20:30:23.614 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 8 грама златна монета Китайска панда 2025: 1419.0 BGN
+2025-02-06 20:30:23.616 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 3 грама златна монета Китайска панда 2025: 532.0 BGN
+2025-02-06 20:30:23.617 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам златна монета Китайска панда 2025: 177.0 BGN
+2025-02-06 20:30:23.618 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Тигъра 2022: 5568.0 BGN
+2025-02-06 20:30:23.619 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Вола 2021: 5568.0 BGN
+2025-02-06 20:30:23.621 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Австралийски лунар година на Мишката 2020: 5568.0 BGN
+2025-02-06 20:30:23.623 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета австралийски лунар година на Кучето 2018: 5568.0 BGN
+2025-02-06 20:30:23.624 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Петела 2017: 5568.0 BGN
+2025-02-06 20:30:23.627 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Маймуната 2016: 5568.0 BGN
+2025-02-06 20:30:23.628 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Змията 2013: 5568.0 BGN
+2025-02-06 20:30:23.629 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция австралиисйки лунар година на дракона 2012: 5568.0 BGN
+2025-02-06 20:30:23.632 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета австралийски лунар година на Заека 2011: 5568.0 BGN
+2025-02-06 20:30:23.634 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Вола 2009: 5568.0 BGN
+2025-02-06 20:30:23.635 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета австралийски лунар година на Мишката 2008: 5568.0 BGN
+2025-02-06 20:30:23.636 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Прасето 2007: 5568.0 BGN
+2025-02-06 20:30:23.637 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Петела 2005: 5568.0 BGN
+2025-02-06 20:30:23.638 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета австралийски лунар година на Маймуната 2004: 5568.0 BGN
+2025-02-06 20:30:23.642 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Козата 2003: 5568.0 BGN
+2025-02-06 20:30:23.643 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета австралийки Лунар 2000 година на дракона: 5568.0 BGN
+2025-02-06 20:30:23.644 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Тигъра 2010: 5568.0 BGN
+2025-02-06 20:30:23.645 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Кучето 2006: 5568.0 BGN
+2025-02-06 20:30:23.649 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Тигъра 1998: 5568.0 BGN
+2025-02-06 20:30:23.650 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Вола 1997: 5568.0 BGN
+2025-02-06 20:30:23.650 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Мишката 1996: 5568.0 BGN
+2025-02-06 20:30:23.650 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златен австралийски лунар година на Коня 2014: 5568.0 BGN
+2025-02-06 20:30:23.653 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 5 грама златно кюлче Argor-Heraeus лунар Дракон 2024: 912.0 BGN
+2025-02-06 20:30:23.654 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам златно кюлче Argor-Heraeus лунар Дракон 2024: 208.0 BGN
+2025-02-06 20:30:23.656 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 30 грама златна монета Китайска панда 2024: 5320.0 BGN
+2025-02-06 20:30:23.657 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 15 грама златна монета Китайска панда 2024: 2660.0 BGN
+2025-02-06 20:30:23.658 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 8 грама златна монета Китайска панда 2024: 1419.0 BGN
+2025-02-06 20:30:23.659 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 3 грама златна монета Китайска панда 2024: 532.0 BGN
+2025-02-06 20:30:23.660 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам златна монета Китайска панда 2024: 177.0 BGN
+2025-02-06 20:30:23.661 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/2 унция златна монета Австралийски лунар година на Дракона 2024: 2702.0 BGN
+2025-02-06 20:30:23.662 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Пазителите на Тюдорите - Драконът на Тюдор 2024г.: 5543.0 BGN
+2025-02-06 20:30:23.663 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Пазителите на Тюдорите - Еднорогът на Сиймор 2024 г.: 5543.0 BGN
+2025-02-06 20:30:23.664 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Пазителите на Тюдорите - Бикът от Кларънс 2023 г.: 5543.0 BGN
+2025-02-06 20:30:23.665 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Британия - Елизабет II: 5516.0 BGN
+2025-02-06 20:30:23.666 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златна монета Пазителите на Тюдорите - Йейлът на Бофорт 2023 г.: 5543.0 BGN
+2025-02-06 20:30:23.670 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/2 унция златен австралийски лунар година на Заека 2023: 2702.0 BGN
+2025-02-06 20:30:23.670 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/4 унция златен австралийски лунар година на Заека 2023: 1419.0 BGN
+2025-02-06 20:30:23.671 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 5 грама златно кюлче PAMP лунар година на Дракона 2024: 938.0 BGN
+2025-02-06 20:30:23.671 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 5 грама златно кюлче PAMP лунар година на Заека 2023: 938.0 BGN
+2025-02-06 20:30:23.671 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/10 унция златен австралийски лунар година на Заека 2023: 568.0 BGN
+2025-02-06 20:30:23.672 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 15 грама златна монета Китайска панда 2023: 2608.0 BGN
+2025-02-06 20:30:23.673 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/20 унция златен австралийски лунар година на Заека 2023: 271.0 BGN
+2025-02-06 20:30:23.673 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 30 грама златна монета Китайска панда 2023: 5216.0 BGN
+2025-02-06 20:30:23.674 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 8 грама златна монета Китайска панда 2023: 1391.0 BGN
+2025-02-06 20:30:23.674 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 3 грама златна монета Китайска панда 2023: 521.0 BGN
+2025-02-06 20:30:23.674 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 грам златна монета Китайска панда 2023: 174.0 BGN
+2025-02-06 20:30:23.675 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 100 грама златно кюлче PAMP Фортуна: 17361.0 BGN
+2025-02-06 20:30:23.675 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 50 грама златно кюлче PAMP Фортуна: 8828.0 BGN
+2025-02-06 20:30:23.676 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция златно кюлче PAMP Фортуна: 5498.0 BGN
+2025-02-06 20:30:23.676 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 крони Кристиян X Дания: 680.0 BGN
+2025-02-06 20:30:23.676 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 10 Гулдена Вилхелм III Холандия: 1048.0 BGN
+2025-02-06 20:30:23.677 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 30 грама златна монета Китайска панда 2022: 5216.0 BGN
+2025-02-06 20:30:23.678 | DEBUG    | __main__:scrape_prices:184 - Scraped price for Златна монета 10 франка Мариана: 560.0 BGN
+2025-02-06 20:30:23.678 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 килограм златно кюлче Valcambi: 169704.0 BGN
+2025-02-06 20:30:24.047 | SUCCESS  | __main__:save_to_excel:116 - Data saved to price_history_gold.xlsx
+2025-02-06 20:30:24.048 | SUCCESS  | __main__:scrape_prices:199 - Successfully scraped 139 products
+2025-02-06 20:30:24.048 | INFO     | __main__:generate_report:212 - Generating price report
+2025-02-06 20:30:30.200 | SUCCESS  | __main__:generate_report:233 - Price trend report generated successfully
+2025-02-06 20:34:15.889 | INFO     | __main__:scrape_prices:122 - Starting price scraping
+2025-02-06 20:34:19.517 | DEBUG    | __main__:get_page_content:38 - Accessing https://tavex.bg/srebro
+2025-02-06 20:34:21.573 | DEBUG    | __main__:get_page_content:49 - No cookie consent button found or already accepted
+2025-02-06 20:34:21.598 | DEBUG    | __main__:get_page_content:64 - Found selector: ('class name', 'product')
+2025-02-06 20:34:24.972 | DEBUG    | __main__:scrape_prices:144 - Found 28 product items
+2025-02-06 20:34:24.973 | DEBUG    | __main__:scrape_prices:152 - Found 28 product items
+2025-02-06 20:34:24.975 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 килограм сребърно кюлче Valcambi: 2039.23 BGN
+2025-02-06 20:34:24.975 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция Сребърна монета Кругерранд, Южна Африка: 72.84 BGN
+2025-02-06 20:34:24.976 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 25 бр. 1 унция сребърна монета Кругерранд, Южна Африка: 1821.0 BGN
+2025-02-06 20:34:24.976 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 500 бр. 1 унция сребърна монета Кругерранд, Южна Африка: 36420.0 BGN
+2025-02-06 20:34:24.977 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция сребърна монета Британия: 72.84 BGN
+2025-02-06 20:34:24.977 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1/10 унция сребърна монета Британия: 9.1 BGN
+2025-02-06 20:34:24.977 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция сребърна монета Виенска Филхармония: 62.52 BGN
+2025-02-06 20:34:24.978 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция сребърна монета канадски кленов лист: 62.52 BGN
+2025-02-06 20:34:24.978 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция сребърна монета Австралийско кенгуру: 62.52 BGN
+2025-02-06 20:34:24.979 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция сребърна монета Американски орел: 66.77 BGN
+2025-02-06 20:34:24.979 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция сребърен австралийски лунар Змия 2025: 78.9 BGN
+2025-02-06 20:34:24.979 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 30 грама сребърна монета Китайска панда 2025: 64.4 BGN
+2025-02-06 20:34:24.980 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция сребърен австралийски лунар Дракон 2024: 78.9 BGN
+2025-02-06 20:34:24.980 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция сребърен австралийски лунар Заек 2023: 78.9 BGN
+2025-02-06 20:34:24.981 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 30 грама сребърна монета Китайска панда 2024: 64.4 BGN
+2025-02-06 20:34:24.981 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 30 грама сребърна монета Китайска панда 2023: 64.4 BGN
+2025-02-06 20:34:24.981 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 25 бр. 1 унция сребърна монета Британия: 1821.0 BGN
+2025-02-06 20:34:24.982 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 500 бр. 1 унция Сребърна монета Британия: 36420.0 BGN
+2025-02-06 20:34:24.982 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция сребърна австралийска коала: 66.77 BGN
+2025-02-06 20:34:24.982 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция сребърна монета австралийски лунар година на Тигъра 2022: 66.77 BGN
+2025-02-06 20:34:24.983 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 30 грама сребърна монета Китайска панда 2022: 64.4 BGN
+2025-02-06 20:34:24.983 | DEBUG    | __main__:scrape_prices:184 - Scraped price for 1 унция  Кукабура 2022 година: 66.77 BGN
+2025-02-06 20:34:25.393 | SUCCESS  | __main__:save_to_excel:116 - Data saved to price_history_silver.xlsx
+2025-02-06 20:34:25.394 | SUCCESS  | __main__:scrape_prices:199 - Successfully scraped 22 products
+2025-02-06 20:34:25.395 | INFO     | __main__:generate_report:212 - Generating price report
+2025-02-06 20:34:27.216 | SUCCESS  | __main__:generate_report:233 - Price trend report generated successfully
+2025-02-06 21:00:29.862 | INFO     | __main__:scrape_prices:122 - Starting price scraping
+2025-02-06 21:00:35.099 | DEBUG    | __main__:get_page_content:38 - Accessing https://tavex.bg/srebro
+2025-02-06 21:00:38.361 | DEBUG    | __main__:get_page_content:49 - No cookie consent button found or already accepted
+2025-02-06 21:00:38.383 | DEBUG    | __main__:get_page_content:64 - Found selector: ('class name', 'product')
+2025-02-06 21:00:41.792 | DEBUG    | __main__:scrape_prices:141 - Found 0 product items
+2025-02-06 21:00:41.793 | ERROR    | __main__:scrape_prices:144 - Could not find product items using any selector
+2025-02-06 21:00:41.793 | DEBUG    | __main__:scrape_prices:145 - Page content sample:
+2025-02-06 21:00:41.859 | DEBUG    | __main__:scrape_prices:146 - <html class="js csscalc no-touchevents" lang="bg">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <link href="https://static.hotjar.com" rel="dns-prefetch"/>
+  <link href="https://in.hotjar.com" rel="dns-prefetch"/>
+  <link href="https://www.google-analytics.com" rel="dns-prefetch"/>
+  <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
+  <link href="https://media.tavid.ee" rel="dns-prefetch"/>
+  <link href="https://www.gstatic.com" rel="dns-prefetch"/>
+  <link href="https://tavex.bg/wp-content/themes/tvx-facelift/inc/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="https://tavex.bg/wp-content/themes/tvx-facelift/inc/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="https://tavex.bg/wp-content/themes/tvx-facelift/inc/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/
+2025-02-06 21:02:00.905 | INFO     | __main__:scrape_prices:122 - Starting price scraping
+2025-02-06 21:02:05.611 | DEBUG    | __main__:get_page_content:38 - Accessing https://tavex.bg/srebro
+2025-02-06 21:02:10.053 | DEBUG    | __main__:get_page_content:49 - No cookie consent button found or already accepted
+2025-02-06 21:02:10.118 | DEBUG    | __main__:get_page_content:64 - Found selector: ('class name', 'product')
+2025-02-06 21:02:13.884 | DEBUG    | __main__:scrape_prices:141 - Found 0 product items
+2025-02-06 21:02:13.884 | ERROR    | __main__:scrape_prices:144 - Could not find product items using any selector
+2025-02-06 21:02:13.885 | DEBUG    | __main__:scrape_prices:145 - Page content sample:
+2025-02-06 21:02:13.955 | DEBUG    | __main__:scrape_prices:146 - <html class="js csscalc no-touchevents" lang="bg">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <link href="https://static.hotjar.com" rel="dns-prefetch"/>
+  <link href="https://in.hotjar.com" rel="dns-prefetch"/>
+  <link href="https://www.google-analytics.com" rel="dns-prefetch"/>
+  <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
+  <link href="https://media.tavid.ee" rel="dns-prefetch"/>
+  <link href="https://www.gstatic.com" rel="dns-prefetch"/>
+  <link href="https://tavex.bg/wp-content/themes/tvx-facelift/inc/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="https://tavex.bg/wp-content/themes/tvx-facelift/inc/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="https://tavex.bg/wp-content/themes/tvx-facelift/inc/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/
+2025-02-06 21:03:13.612 | INFO     | __main__:scrape_prices:122 - Starting price scraping
+2025-02-06 21:03:18.499 | DEBUG    | __main__:get_page_content:38 - Accessing https://tavex.bg/zlato/zlatni-moneti
+2025-02-06 21:03:22.558 | DEBUG    | __main__:get_page_content:49 - No cookie consent button found or already accepted
+2025-02-06 21:03:22.719 | DEBUG    | __main__:get_page_content:64 - Found selector: ('class name', 'product')
+2025-02-06 21:03:26.714 | DEBUG    | __main__:scrape_prices:141 - Found 0 product items
+2025-02-06 21:03:26.715 | ERROR    | __main__:scrape_prices:144 - Could not find product items using any selector
+2025-02-06 21:03:26.718 | DEBUG    | __main__:scrape_prices:145 - Page content sample:
+2025-02-06 21:03:26.892 | DEBUG    | __main__:scrape_prices:146 - <html class="js csscalc no-touchevents" lang="bg">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <link href="https://static.hotjar.com" rel="dns-prefetch"/>
+  <link href="https://in.hotjar.com" rel="dns-prefetch"/>
+  <link href="https://www.google-analytics.com" rel="dns-prefetch"/>
+  <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
+  <link href="https://media.tavid.ee" rel="dns-prefetch"/>
+  <link href="https://www.gstatic.com" rel="dns-prefetch"/>
+  <link href="https://tavex.bg/wp-content/themes/tvx-facelift/inc/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="https://tavex.bg/wp-content/themes/tvx-facelift/inc/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="https://tavex.bg/wp-content/themes/tvx-facelift/inc/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/
+2025-02-06 21:30:17.432 | INFO     | __main__:scrape_prices:125 - Starting price scraping
+2025-02-06 21:30:25.471 | DEBUG    | __main__:get_page_content:38 - Accessing https://tavex.bg/zlato/zlatni-moneti
+2025-02-06 21:30:34.513 | DEBUG    | __main__:get_page_content:53 - No cookie consent button found or already accepted
+2025-02-06 21:30:55.040 | ERROR    | __main__:get_page_content:74 - Error waiting for products: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-02-06 21:30:56.438 | DEBUG    | __main__:scrape_prices:144 - Found 0 product items
+2025-02-06 21:30:56.439 | ERROR    | __main__:scrape_prices:147 - Could not find product items using any selector
+2025-02-06 21:30:56.439 | DEBUG    | __main__:scrape_prices:148 - Page content sample:
+2025-02-06 21:30:56.573 | DEBUG    | __main__:scrape_prices:149 - <html class="js csscalc no-touchevents" lang="bg">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <link href="https://static.hotjar.com" rel="dns-prefetch"/>
+  <link href="https://in.hotjar.com" rel="dns-prefetch"/>
+  <link href="https://www.google-analytics.com" rel="dns-prefetch"/>
+  <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
+  <link href="https://media.tavid.ee" rel="dns-prefetch"/>
+  <link href="https://www.gstatic.com" rel="dns-prefetch"/>
+  <link href="https://tavex.bg/wp-content/themes/tvx-facelift/inc/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="https://tavex.bg/wp-content/themes/tvx-facelift/inc/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="https://tavex.bg/wp-content/themes/tvx-facelift/inc/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/
+2025-02-06 21:32:01.413 | INFO     | __main__:scrape_prices:137 - Starting price scraping
+2025-02-06 21:32:04.144 | DEBUG    | __main__:get_page_content:38 - Accessing https://tavex.bg/zlato/zlatni-moneti
+2025-02-06 21:32:17.131 | DEBUG    | __main__:get_page_content:53 - No cookie consent button found or already accepted
+2025-02-07 20:25:06.459 | INFO     | __main__:scrape_prices:137 - Starting price scraping
+2025-02-07 20:25:11.316 | DEBUG    | __main__:get_page_content:38 - Accessing https://tavex.bg/zlato/
+2025-02-07 20:25:22.967 | DEBUG    | __main__:get_page_content:53 - No cookie consent button found or already accepted
+2025-02-07 20:25:45.519 | ERROR    | __main__:get_page_content:84 - Error waiting for products: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-02-07 20:25:45.519 | DEBUG    | __main__:get_page_content:85 - Page source sample:
+2025-02-07 20:25:45.638 | DEBUG    | __main__:get_page_content:86 - <html class="js csscalc no-touchevents" lang="bg"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="dns-prefetch" href="https://static.hotjar.com">
+    <link rel="dns-prefetch" href="https://in.hotjar.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://media.tavid.ee">
+    <link rel="dns-prefetch" href="https://www.gstatic.com">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://tavex.bg/wp-content/themes/tvx-facelift/inc/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://tavex.bg/wp-content/themes/tvx-facelift/inc/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://tavex.bg/wp-content/themes/tvx-facelift/inc/favicon/favicon-
+2025-02-07 20:25:47.234 | DEBUG    | __main__:scrape_prices:156 - Found 0 product items
+2025-02-07 20:25:47.290 | DEBUG    | __main__:scrape_prices:170 - Found 151 product items using fallback selectors
+2025-02-07 20:25:47.304 | WARNING  | __main__:scrape_prices:235 - No products were scraped
+2025-02-07 20:25:47.488 | DEBUG    | __main__:scrape_prices:236 - Page content: <html class="js csscalc no-touchevents" lang="bg">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <link href="https://static.hotjar.com" rel="dns-prefetch"/>
+  <link href="https://in.hotjar.com" rel="dns-prefetch"/>
+  <link href="https://www.google-analytics.com" rel="dns-prefetch"/>
+  <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
+  <link href="https://media....
