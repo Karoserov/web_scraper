@@ -14,16 +14,14 @@ import os
 import time
 import random
 from fake_useragent import UserAgent
-import random
-from fake_useragent import UserAgent
 
 # Configure logger
 logger.add("scraper.log", rotation="1 day")
 
 # Constants
-EXCEL_FILE = "price_history_.xlsx" # here after history_ should put what is the name of the excel file
-BASE_URL = "https://" # here should be the main page and should start with https:
-url = f"{BASE_URL}/" #here after the / there should be the redirect of the main page
+EXCEL_FILE = "price_history_silver.xlsx" # here after history_ should put what is the name of the excel file
+BASE_URL = "https://tavex.bg" # here should be the main page and should start with https:
+url = f"{BASE_URL}/srebro" #here after the / there should be the redirect of the main page
 
 def setup_driver() -> webdriver.Firefox:
     """Setup and return a Firefox webdriver with proper options"""
