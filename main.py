@@ -19,9 +19,9 @@ from fake_useragent import UserAgent
 logger.add("scraper.log", rotation="1 day")
 
 # Constants
-EXCEL_FILE = "price_history_silver.xlsx" # here after history_ should put what is the name of the excel file
+EXCEL_FILE = "price_history_gold.xlsx" # here after history_ should put what is the name of the excel file
 BASE_URL = "https://tavex.bg" # here should be the main page and should start with https:
-url = f"{BASE_URL}/srebro" #here after the / there should be the redirect of the main page
+url = f"{BASE_URL}/zlato" #here after the / there should be the redirect of the main page
 
 def setup_driver() -> webdriver.Firefox:
     """Setup and return a Firefox webdriver with proper options"""
@@ -213,8 +213,6 @@ def scrape_prices():
         products = []
         selling_prices = []
         buying_prices = []
-        selling_prices = []
-        buying_prices = []
         urls = []
 
         # Find all product containers
@@ -231,8 +229,6 @@ def scrape_prices():
             logger.debug("Page content sample:")
             logger.debug(soup.prettify()[:1000])
             return False
-            
-        logger.debug(f"Found {len(product_items)} product items")
 
         for product in product_items:
             try:
@@ -268,7 +264,6 @@ def scrape_prices():
                     buying_price = None
                     
                     # Extract buying price if not out of stock
-                    buying_price = None
                     if not is_out_of_stock:
                         buying_price_text = buying_price_elem.text.strip()
                         buying_price = clean_price(buying_price_text)
@@ -288,61 +283,7 @@ def scrape_prices():
                             continue
                     
                     # Extract selling price - first try to find the price-amount-whole element
-                    selling_price_whole_elem = selling_price_elem.find('span', class_='price-amount-whole')
-                    if selling_price_whole_elem:
-                        selling_price_text = selling_price_whole_elem.text.strip()
-                        # Add decimals if they exist
-                        fraction_elem = selling_price_elem.find('span', class_='price-amount-fraction')
-                        if fraction_elem:
-                            selling_price_text += '.' + fraction_elem.text.strip()
-                        try:
-                            selling_price = float(selling_price_text)
-                        except ValueError:
-                            logger.debug(f"Could not convert selling price text to float: {selling_price_text}")
-                    # Check if product is out of stock
-                    out_of_stock_elem = product.find('span', class_='product__out-of-stock')
-                    is_out_of_stock = False
-                    if out_of_stock_elem and 'Изчерпан' in out_of_stock_elem.text.strip():
-                        is_out_of_stock = True
-                        logger.debug(f"Product {name} is out of stock")
-
-                    # Get buying price (from the element marked as selling price)
-                    buying_price_elem = product.find('span', class_='js-product-price-from')
-                    if not is_out_of_stock and not buying_price_elem:
-                        logger.debug(f"Could not find buying price for product with name: {name}")
-                        continue
-
-                    # Get selling price (from the element marked as buying price)
-                    selling_price_elem = product.find('span', class_='js-product-price-buy')
-                    if not selling_price_elem:
-                        logger.debug(f"Could not find selling price for product with name: {name}")
-                        continue
-
-                    selling_price = None
-                    buying_price = None
-                    
-                    # Extract buying price if not out of stock
-                    buying_price = None
-                    if not is_out_of_stock:
-                        buying_price_text = buying_price_elem.text.strip()
-                        buying_price = clean_price(buying_price_text)
-                        if not buying_price:
-                            # Try to get price from data attribute if text parsing fails
-                            try:
-                                price_data = buying_price_elem.get('data-pricelist')
-                                if price_data:
-                                    import json
-                                    price_info = json.loads(price_data)
-                                    buying_price = float(price_info['sell'][0]['price'])
-                            except Exception as e:
-                                logger.debug(f"Could not parse buying price from data attribute: {e}")
-                        
-                        if not buying_price:
-                            logger.debug(f"Could not parse buying price text: {buying_price_text} for product: {name}")
-                            continue
-                    
-                    # Extract selling price - first try to find the price-amount-whole element
-                    selling_price_whole_elem = selling_price_elem.find('span', class_='price-amount-whole')
+                        selling_price_whole_elem = selling_price_elem.find('span', class_='price-amount-whole')
                     if selling_price_whole_elem:
                         selling_price_text = selling_price_whole_elem.text.strip()
                         # Add decimals if they exist
@@ -354,26 +295,6 @@ def scrape_prices():
                         except ValueError:
                             logger.debug(f"Could not convert selling price text to float: {selling_price_text}")
                     
-                    if not selling_price:
-                        # Fallback to regular text parsing if structured elements aren't found
-                        selling_price_text = selling_price_elem.text.strip()
-                        selling_price = clean_price(selling_price_text)
-                    
-                    if not selling_price:
-                        logger.debug(f"Could not parse selling price text: {selling_price_text} for product: {name}")
-                        continue
-                    
-                    # If we have all the data, add it to our lists
-                    timestamps.append(current_time)
-                    products.append(name)
-                    selling_prices.append(selling_price)
-                    buying_prices.append(None if is_out_of_stock else buying_price)
-                    urls.append(product_url)
-                    products_scraped += 1
-                    if is_out_of_stock:
-                        logger.debug(f"Successfully scraped out of stock product {name}: Selling: {selling_price} BGN")
-                    else:
-                        logger.debug(f"Successfully scraped prices for {name}: Selling: {selling_price} BGN, Buying: {buying_price} BGN")
                     if not selling_price:
                         # Fallback to regular text parsing if structured elements aren't found
                         selling_price_text = selling_price_elem.text.strip()
